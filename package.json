@@ -1,0 +1,12 @@
+{
+  "name": "iamjonas",
+  "version": "0.0.1",
+  "description": "Site gen for www.iamjonas.me",
+  "main": "index.js",
+  "author": "Jonas Lundberg",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  },
+  "type": "module"
+}
