@@ -1,0 +1,17 @@
+version: '3'
+
+tasks:
+  gen:
+    desc: "11ty build"
+    cmds:
+      - npx @11ty/eleventy
+
+  clean:
+    desc: "11ty clean"
+    cmds:
+      - rm -r _site
+
+  serve:
+    desc: "11ty serve"
+    cmds:
+      - npx @11ty/eleventy --serve
