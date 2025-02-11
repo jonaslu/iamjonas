@@ -1,0 +1,236 @@
+/*
+-----------------------------------------------
+I am jonas custom template - if you use
+this, be sure to give some link love back from
+where you put it.
+
+Designer: Jonas Lundberg
+URL:      www.iamjonas.me
+----------------------------------------------- */
+.timestamp {
+  font-family: sans serif;
+  font-size: 15px;
+  padding-top: 5px;
+}
+code {
+  display: inline-block;
+  white-space: no-wrap;
+  background: #fff;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  color: #555;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  -ms-border-radius: 0.4em;
+  -o-border-radius: 0.4em;
+  border-radius: 0.4em;
+  padding: 0 0.3em;
+  margin: -1px 0;
+}
+.scissorstable {
+  display: table;
+  padding-top: 20px;
+  margin: 0px auto;
+  position: relative;
+}
+.beforescissors {
+  vertical-align: middle;
+  display: table-cell;
+  width: 45%;
+  border-bottom: 1px dashed;
+  top: -15px;
+  position: relative;
+  left: -20px;
+}
+.afterscissors {
+  vertical-align: middle;
+  display: table-cell;
+  width: 45%;
+  border-bottom: 1px dashed;
+  top: -15px;
+  position: relative;
+  right: -20px;
+}
+.container {
+  max-width: 720px;
+}
+.section {
+  margin: 0;
+}
+body {
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 1.4;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #494e55;
+  background-color: #eeeee6;
+}
+p {
+  margin: 0 0 30px;
+}
+a {
+  -moz-transition: color 0.2s ease-in;
+  -o-transition: color 0.2s ease-in;
+  -webkit-transition: color 0.2s ease-in;
+  color: #f01d3f;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #ff0000;
+  text-decoration: none;
+}
+a:focus {
+  outline: 0px;
+}
+h1 {
+  font-weight: bold;
+  line-height: 1.1;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h2 {
+  margin-top: 30px;
+}
+.logo {
+  font-size: 60px;
+  font-family: "Fredericka the great", cursive;
+}
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Raleway"),
+    url(http://themes.googleusercontent.com/static/fonts/raleway/v7/IczWvq5y_Cwwv_rBjOtT0w.woff)
+      format("woff");
+}
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Raleway Bold"), local("Raleway-Bold"),
+    url(http://themes.googleusercontent.com/static/fonts/raleway/v7/JbtMzqLaYbbbCL9X6EvaIxsxEYwM7FgeyaSgU71cLG0.woff)
+      format("woff");
+}
+.header {
+  border-bottom: 1px solid #999;
+}
+.main {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.footer {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-top: 1px solid #999;
+  text-align: center;
+  height: 70px;
+  padding-top: 25px;
+}
+.logo > a {
+  -moz-transition: none;
+  -o-transition: none;
+  -webkit-transition: none;
+  color: #494e55;
+  text-decoration: none;
+}
+.logo > a:hover,
+a:focus {
+  color: #494e55;
+  text-decoration: none;
+}
+.nav-pills > li {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  border-radius: 0px;
+  background-color: #eeeee6;
+  color: #fd2b2b;
+}
+.nav-pills > li > a,
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus {
+  border-radius: 0px;
+  background-color: #eeeee6;
+  color: #494e55;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  border-bottom: 2px solid #fd2b2b;
+}
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus {
+  border-bottom: 2px solid #999;
+}
+.tr-caption-container {
+  margin-bottom: 10px;
+}
+.tr-caption {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+@media (min-width: 768px) {
+  .nav {
+    float: right;
+    margin-top: 37px;
+  }
+}
+@media (max-width: 768px) {
+  .nav,
+  .logo {
+    margin-top: 0px;
+    float: none;
+    display: table !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav {
+    margin-bottom: 15px;
+  }
+  .logo {
+    font-size: 50px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  body {
+    text-align: justify;
+    font-size: 15px;
+  }
+  .section {
+    margin: 0 15px;
+  }
+}
+#blog-pager {
+  display: none;
+}
+.blog-feeds {
+  display: none;
+}
+
+/*	 -- Prettify -- */
+/*	Display line nums on all lines */
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L5,
+li.L6,
+li.L7,
+li.L8 {
+  list-style-type: decimal;
+}
+/* Make pre code box span entire width */
+pre.prettyprint {
+  width: auto;
+}
