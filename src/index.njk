@@ -13,7 +13,7 @@ layout: base.njk
         {{ post.data.summary }}
     </p>
     <span class='timestamp'>
-        {{ post.data.date }}
+        {{ post.data.date | intlPostDate }}
     </span>
     <div class='scissorstable'>
         <span class='beforescissors'></span>
