@@ -2,6 +2,7 @@
 date: 2023-07-28
 title: The trouble with troubleshooting
 summary: "Sigh. That didn't work either. Why can't someone else have already solved this? Maybe it's a bug? I'll upgrade and hope that works."
+layout: post
 ---
 
 In your daily developer life I bet you use many many programs that you didn't write. A few come to mind: the OS, the window manager, the compiler, the IDE, git, databases, browsers, package managers, shells, the gnu command-line suite, curl/wget.

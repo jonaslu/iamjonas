@@ -1,8 +1,10 @@
 ---
 title: Reverting unhappiness
 date: 2022-07-07
-summary: There are benefits to being happy with what you do beyond the mere feeling. To become happier we need to know the low points and take back some control over the causes of misery.
+summary: There are benefits to being happy with what you do beyond the mere feeling. To become happier we need to know the low points and take back some control over the causes of misery
+layout: post
 ---
+
 Being happy isn't something I hear of often in developer circles. Developers mostly complain about stuff that's already in place. And talk dreamily of new things that haven't yet proven as boring and buggy as the previous new things.
 
 The legacy you hate was once the shiny new dream of someone else. But dreaming about things that's not (yet) legacy can't fill a workday or pay the bills.
