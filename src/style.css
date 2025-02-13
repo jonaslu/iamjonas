@@ -100,17 +100,14 @@ h2 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
-  src: local("Raleway"),
-    url(http://themes.googleusercontent.com/static/fonts/raleway/v7/IczWvq5y_Cwwv_rBjOtT0w.woff)
-      format("woff");
+  src: local("Raleway"), url(http://themes.googleusercontent.com/static/fonts/raleway/v7/IczWvq5y_Cwwv_rBjOtT0w.woff) format("woff");
 }
 @font-face {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   src: local("Raleway Bold"), local("Raleway-Bold"),
-    url(http://themes.googleusercontent.com/static/fonts/raleway/v7/JbtMzqLaYbbbCL9X6EvaIxsxEYwM7FgeyaSgU71cLG0.woff)
-      format("woff");
+    url(http://themes.googleusercontent.com/static/fonts/raleway/v7/JbtMzqLaYbbbCL9X6EvaIxsxEYwM7FgeyaSgU71cLG0.woff) format("woff");
 }
 .header {
   border-bottom: 1px solid #999;
@@ -175,6 +172,13 @@ a:focus {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-style: italic;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media (min-width: 768px) {
   .nav {
