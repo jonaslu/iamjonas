@@ -28,15 +28,15 @@
       <div class='row header'>
         <div class='col-sm-6'>
           <span class='logo'>
-            <a href=''>
+            <a href='{{ site.baseUrl }}'>
                 I am Jonas
             </a>
           </span>
         </div>
         <div class='col-sm-6'>
           <ul class='nav nav-pills'>
-            <li class="<b:if cond='data:blog.url == data:blog.homepageUrl'>active</b:if>">
-               <a href='data:blog.homepageUrl'>
+            <li {{ 'class=active' if page.url == "/" }}>
+               <a href='{{ site.baseUrl }}'>
                    Articles
                </a>
             </li>
