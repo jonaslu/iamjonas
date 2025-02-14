@@ -40,13 +40,13 @@
                    Articles
                </a>
             </li>
-            <li class="<b:if cond='data:blog.pageName == "Projects"'>active</b:if>">
-               <a href='/p/github.html'>
+            <li {{ 'class=active' if page.url == '/p/projects/' }}>
+               <a href='/p/projects/'>
                    Projects
                </a>
             </li>
-    	    <li class="<b:if cond='data:blog.pageName == "About"'>active</b:if>">
-                <a href='/p/about.html'>
+    	    <li {{ 'class=active' if page.url == '/p/about/' }}>
+                <a href='/p/about/'>
                   About
                 </a>
              </li>
