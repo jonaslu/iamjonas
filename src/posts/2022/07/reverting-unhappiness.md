@@ -2,7 +2,6 @@
 title: Reverting unhappiness
 date: 2022-07-07
 summary: There are benefits to being happy with what you do beyond the mere feeling. To become happier we need to know the low points and take back some control over the causes of misery
-layout: post
 ---
 
 Being happy isn't something I hear of often in developer circles. Developers mostly complain about stuff that's already in place. And talk dreamily of new things that haven't yet proven as boring and buggy as the previous new things.
@@ -84,7 +83,6 @@ The same goes for some piece of code you can't understand. Be methodical. Start 
 
 **Be fearless** - You'll never grow and progress as a developer if you stay with what you know. Growth happens outside your comfort zone. Try as often as possible to take on new tasks where you know next to nothing. Some of the best programmers I've ever worked with did just this. They routinely took on things where they knew nothing. Until they knew most of it and then moved on. Suddenly you're exploring new directions where exciting things might happen.
 
-!! WASHERE !! Did up till here with link copying, had not done the other blog post yet
 **Become a teacher** - This is the only people point in the list. Teaching and becoming a mentor is a great way of knowing your material in depth. There's even a methodology for it: [the Feynman technique](https://law-hawaii.libguides.com/notetaking/feynman) where you are imagining explaining the topic to a five year old. Do this as much as you can - it's way harder than it sounds to be clear, concise while stating the general idea in simple terms. Not only will you become the go-to guy but people will start listening to what you say. Suddenly.
 
 ## The big pic
