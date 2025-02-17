@@ -1,7 +1,8 @@
 ---
 title: The test plan
 date: 2021-04-26
-summary: The tests are timing out again" someone yells. "Alright I'll bump them" you instinctively respond. Then you pause and feel uneasy. Is there another way?
+summary: > 
+  "The tests are timing out again" someone yells. "Alright I'll bump them" you instinctively respond. Then you pause and feel uneasy. Is there another way?
 ---
 
 This is just between you and me, ok? I'm not comfortable with releasing code that's only been unit-tested. I've [preached at lengths](https://www.iamjonas.me/2020/11/how-to-own-code.html) on this blog on how being correct is the single most important thing for a developer.
