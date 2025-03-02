@@ -49,7 +49,7 @@ body {
 }
 p {
   font-weight: 200;
-  font-size: 1.5em;
+  font-size: 21px;
   line-height: 1.4;
   margin: 0 0 30px;
 }
@@ -164,6 +164,11 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+ul, ol {
+  margin: 0 0 30px 15px;
+  padding: 0;
+  font-size: 21px;
+}
 @media (min-width: 768px) {
   .nav {
     float: right;
@@ -193,6 +198,9 @@ img {
   }
   body {
     text-align: justify;
+    font-size: 15px;
+  }
+  p, ul, ol {
     font-size: 15px;
   }
   .section {
