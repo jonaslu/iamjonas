@@ -1,12 +1,12 @@
 ---
-title: How to enjoy a good meltdown
+title: "How to enjoy a good meltdown"
 date: 2021-12-21
-summary: It's down! Production is down! You're working at an intense pace yet you have a serene calm feeling. You are prepared for this. It's showtime!
+summary: "It's down! Production is down! You're working at an intense pace yet you have a serene calm feeling. You are prepared for this. It's showtime!"
 ---
 
 At most places I've worked there has been one or more great meltdowns. A great meltdown is when an important part of production is down or not working properly. As I work in web development this means the site is down.
 
-It could be the server restarts every 2 minutes, the database doesn't respond or some certificate has timed out.  All are errors that hit the end users of your product. Naturally this is not appreciated by anyone.
+It could be the server restarts every 2 minutes, the database doesn't respond or some certificate has timed out. All are errors that hit the end users of your product. Naturally this is not appreciated by anyone.
 
 You're tasked with fixing it right now, because you built it, mkay? This is stress inducing and stress is the last thing you need in order to think clearly and fix it.
 
