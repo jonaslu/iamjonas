@@ -1,8 +1,9 @@
 ---
-title: The scheduling session
+title: "The scheduling session"
 date: 2022-05-08
-summary: Multitasking and interruptions? All bad! Unless you do it yourself. Then it's all right!
+summary: "Multitasking and interruptions? All bad! Unless you do it yourself. Then it's all right!"
 ---
+
 Don't multitask. Multitasking is really bad. You'll get less things done and spend precious time context switching. So the general advice goes. Science [backs this up](https://en.wikipedia.org/wiki/Human_multitasking#Research) we're not actually multitasking, we're like a single-core computer context-switching between tasks. And that costs.
 
 Ok. So don't multitask.
@@ -27,7 +28,7 @@ Then you need to think of ways to verify that it works. Then you review someone 
 
 It's when you get too caught up in the same way of thinking to see new ways to solve a problem. We've also talked about [confirmation bias](https://www.iamjonas.me/2022/03/falsify-yourself.html). This is when you're so involved with your ideas you can't take a dispassionate look at the trade-offs on what you've created. These two problems thrive when single tasking. And those two points are bad when it comes to producing good solutions.
 
-The first will cost you time by trying to solve the same problem with the same approach over and over again. And the second will have you choose an inefficient solution at best and a faulty solution at worst. 
+The first will cost you time by trying to solve the same problem with the same approach over and over again. And the second will have you choose an inefficient solution at best and a faulty solution at worst. 
 
 It will also cause you to test your code too lightly and avoid seeing and blind spots you have before it hits production.
 
@@ -62,7 +63,7 @@ Because it's an uncommon phrase it's easy to grep for and you'll likely just hit
 
 This will speed up the process of swapping in the mental model you had in your tiny skull before you left off.
 
-![WASHERE.jpg](./WASHERE.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2fn4yKcF6jo3QIZdEWsed7an5mZXgfLr-c2wDuQ6FBKxUXM5EQeYUiMJp7uX1TkPoI2e5JW3wENbmWojuZ7AXGEHOCSwun-3J_SsiBXbii_KN2LC8TbiHOc99C3PKDhI45FJc22I3shK229p4mhGyoBlXo7Uzee1S8jrwR78Ntgtv2OK92fFkIH0y7g/s16000/WASHERE.jpg)
 
 ## The scheduling session
 Now we're at the point where we can switch tasks. If only we knew what to work on next. At this point I'll do something I've given the catchy name of a scheduling session. It's deceptively simple.
@@ -71,26 +72,25 @@ Plans are a frail estimate or projection of the future and as such often fail. T
 
 Rank them for whatever ranking algorithm you fancy at that point: how interesting, how urgent, how short or even how random. Then start to work on your new task. Dumping out all the things you have in your head have two major benefits.
 
-It frees up your working memory. Stuff that's unsaid lingers in your mind. Getting it out on paper (or into a buffer) frees you from thinking of it. The second is peace of mind. When I see the list of tasks I almost invariably go "Well, it's not that bad". It gives you some relief to see it out in the open.
+It frees up your working memory. Stuff that's unsaid lingers in your mind. Getting it out on paper (or into a buffer) frees you from thinking of it. The second is peace of mind. When I see the list of tasks I almost invariably go "Well, it's not **that** bad". It gives you some relief to see it out in the open.
 
 It's always fewer items than it seems in your head.
 
-![scheduling.jpg](./scheduling.jpg)
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwWvfuNGj1rVto19vbc2FiVbfB-ICCXYuIgU75H3GX_dGkrSDiQljHsbDtKkfLEeUqHkDi-dD_4loghqCpGB296zB1Wac8VxXfpZ-b1CC6gDGOI4oIuDXfu--nX7_d9wDXdlmtkxWywsqc7mT0-5qgRTyeWmVn4Yiro4GFSLrB13yhvqMGED69awRz_Q/s16000/scheduling.jpg)
 
 ## Attention residue
 Good, so now we've made the switch and can start on another task. If you've saved context before making the switch properly, the attention residue might not be so bad. You are clearly done and you've written all there is to know right up until this point.
 
-
 It should be easy to let it go for now since you are going nowhere. You should get all excited about the next project you're about to take on. In theory that is. In practice it's harder because of that feeling of being [so close to nailing it](https://www.iamjonas.me/2020/06/overview-mode.html).
 
-What to do about that lingering attention residue? I go for pen and paper first and write down the context again. And write down that it's time to leave it be for a while. If that doesn't help I try to relax for a short period of time to calm the mind down. 
+What to do about that lingering attention residue? I go for pen and paper first and write down the context again. And write down that it's time to leave it be for a while. If that doesn't help I try to relax for a short period of time to calm the mind down. 
 
 And in extreme cases when even that does not help I go for a quick walk outside.
 
 ## The sweet spot for interruption
 So how do you know when to interrupt yourself? Too soon and you'll be breaking off before any real work has been done. Then you are wasting precious time loading up context in your brain only to swap it out again. This would be a clever and tiresome way of procrastinating.
 
-On the other side is staying too long on a task. That is when einstellung and confirmation bias starts rearing their ugly heads and you lose your ability to see but this one way of doing it. So how to find that sweet spot? I use my intensity level as a gauge for when to stop. 
+On the other side is staying too long on a task. That is when einstellung and confirmation bias starts rearing their ugly heads and you lose your ability to see but this one way of doing it. So how to find that sweet spot? I use my intensity level as a gauge for when to stop. 
 
 Whenever I start [skipping breaks](https://www.iamjonas.me/2014/12/the-walk-o-doro-1ing-your-creativity.html) and have to come back to the task because I know the solution is just around the corner: this is exactly when I need to stop and switch.
 
@@ -101,6 +101,6 @@ While researching this article I stumbled upon the concept of slow multitasking.
 
 In [the talk](https://www.ted.com/talks/tim_harford_a_powerful_way_to_unleash_your_natural_creativity/transcript?language=en) Tim Harford gives plenty of examples where the slow interleaving has cross-fertilized and insights from one project took hold in another.
 
-With context save, a scheduling session and removing attention residue we make the transition as smooth as possible going from one task to the next. And your wonderful eclectic mix of projects might just spark something bigger than its individual pieces.
+With context save, a scheduling session and removing attention residue we make the transition as smooth as possible going from one task to the next. And your wonderful eclectic mix of projects might just spark something bigger than its individual pieces.
 
 The word in Swedish for this would be jävligt häftigt. Meaning hot diggity damn awesome.

@@ -1,7 +1,7 @@
 ---
-title: Reverting unhappiness
-date: 2022-07-07
-summary: There are benefits to being happy with what you do beyond the mere feeling. To become happier we need to know the low points and take back some control over the causes of misery
+title: "Reverting unhappiness"
+date: 2022-07-27
+summary: "There are benefits to being happy with what you do beyond the mere feeling. To become happier we need to know the low points and take back some control over the causes of misery."
 ---
 
 Being happy isn't something I hear of often in developer circles. Developers mostly complain about stuff that's already in place. And talk dreamily of new things that haven't yet proven as boring and buggy as the previous new things.
@@ -26,20 +26,20 @@ What, then, happens in the opposite state of being happy: miserable (or unhappy 
 
 The same bread and butter: working memory, creativity and learning capacity takes a hit. That paints a clear picture: get happy or suffer as a programmer because of it. But that leaves us none the wiser.
 
-How do you become happier as a programmer?
+How **do** you become happier as a programmer?
 
 ## What causes unhappiness?
 The same authors of the research did another survey of some 2000 GitHub developers to find out [what causes unhappiness](https://arxiv.org/pdf/1703.04993.pdf). Here's the top 10 causes of misery listed with the frequency the answer appeared:
 
-Being stuck in problem solving (186)
-Time pressure (152)
-Bad code quality and coding practice (107)
-Under-performing colleague (71)
-Feel inadequate with work (63)
-Mundane or repetitive task (60)
-Unexplained broken code (57)
-Bad decision making (42)
-Imposed limitation on development (40)
+Being stuck in problem solving (186)  
+Time pressure (152)  
+Bad code quality and coding practice (107)  
+Under-performing colleague (71)  
+Feel inadequate with work (63)  
+Mundane or repetitive task (60)  
+Unexplained broken code (57)  
+Bad decision making (42)  
+Imposed limitation on development (40)  
 Personal issues (39)
 
 The study notes that "We also expected the majority of the causes to be related to human aspects and relationships. However, most of them came from technical factors related to the artifact (software product, tests, requirements and design document, architecture, etc.) and the process."
