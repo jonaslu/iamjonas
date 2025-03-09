@@ -99,4 +99,4 @@ Have a log of the obstacles you've conquered so far. When you feel unhappy / stu
 ## No means no
 It should be so painfully obvious that it needs stating anyway: all of this still means accepting no abuse, bullying or boundaries not respected. If so, report it and promptly leave. There is more code to complain over now than at any previous point in history.
 
-![corny faces](./corny_faces.png)
+![Four faces going from sad to happy](./corny_faces.png)
