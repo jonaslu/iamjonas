@@ -1,6 +1,6 @@
 ---
+title: "The trouble with troubleshooting"
 date: 2023-07-28
-title: The trouble with troubleshooting
 summary: "Sigh. That didn't work either. Why can't someone else have already solved this? Maybe it's a bug? I'll upgrade and hope that works."
 ---
 
@@ -73,7 +73,7 @@ Quick fixes are not a substitute for understanding. You still need to do that. I
 
 To further compound the problem, troubleshooting sections tends to be written by the authors of the program. As experts they're unaware of how much stuff you don't know. There are hidden contexts, prerequisites and caveats that are not mentioned. Because they're not obvious to an expert.
 
-This is called the [curse of expertise](https://en.wikipedia.org/wiki/Curse_of_knowledge) and can set you way off track. Stay clear of any troubleshooting that is not obviously basic and beginner friendly. And knowing that takes experience of troubleshooting itself. Only once you've got some logs or some other output of what's happening and have thought and tried your hands at the problem for a while then go try your luck with one or two items.
+This is called [the curse of expertise](https://en.wikipedia.org/wiki/Curse_of_knowledge) and can set you way off track. Stay clear of any troubleshooting that is not obviously basic and beginner friendly. And knowing that takes experience of troubleshooting itself. Only once you've got some logs or some other output of what's happening and have thought and tried your hands at the problem for a while then go try your luck with one or two items.
 
 Same goes for random googling. Now you're really hoping for a quick fix to your pesky problem and are asking to be led astray.
 
