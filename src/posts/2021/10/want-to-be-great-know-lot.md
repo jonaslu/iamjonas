@@ -1,14 +1,14 @@
 ---
-title: Want to be great? Know a lot
+title: "Want to be great? Know a lot"
 date: 2021-10-26
-summary: Remember that time where you knew of a solution that no-one else did? And it worked exceptionally well too. I bet you felt like a great programmer. Let's make that happen again!
+summary: "Remember that time where you knew of a solution that no-one else did? And it worked exceptionally well too. I bet you felt like a great programmer. Let's make that happen again!"
 ---
+
 In the book [Ultralearning](https://www.scotthyoung.com/blog/ultralearning/) Scott H Young argues that the difference between a great programmer and mediocre programmer is not the ability to solve problems. Both can often get the job done. But the great programmer knows a dozen or more ways to solve the problem and can apply the most effective solution for the case at hand.
 
 Mediocre sounds like a put down and we've all been there so let's call that person less knowledgeable instead. The less knowledgeable programmer only knows a few or even one solution and deploys that solution unaware that there are better ways.
 
 I can look it up if I need to, you might think. The problem is how do you look up something you don't even know exists? These are the unknown unknowns. Things you don't know you don't know. And those are indeed hard to look up. 
-
 
 To become better you need to know what's out there. You need to turn the unknown unknowns into known unknowns.
 
@@ -63,9 +63,7 @@ Ignorance hides in such words. You think you know what it means, but in reality 
 
 Take your relevant passages collected above and compress them with the Feynman-technique. Now you have what a software package does and it's core concepts in simple short language. Good job so far!
 
-Make the information accessible
--------------------------------
-
+## Make the information accessible
 When pressure is on we tend to shut down mentally. Our thought patterns narrow and we fall back on instincts and well rehearsed routines. This is bad for remembering things you've learnt about broadly. 
 
 They're less rehearsed than what you use frequently and will be further back in your mind exactly when you need them. In order to mitigate this we are going to make the information we just dug up more accessible by actively trying to come up with questions where the information is the answer.
@@ -94,4 +92,4 @@ There has to be some moments in your day when you're idling. Compiling, waiting 
 
 Over time that adds up even though my nose is less clean.
 
-![Summary](Summary.png)
+![Note with the summary of this post](Summary.png)
