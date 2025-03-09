@@ -1,8 +1,9 @@
 ---
-title: Falsify yourself
+title: "Falsify yourself"
 date: 2022-03-10
-summary: You've solved it! Until someone asks a simple question and you're stunned. Why didn't I think of that? Because you're hardwired not to see holes in your own solutions. Let's fix that.
+summary: "You've solved it! Until someone asks a simple question and you're stunned. Why didn't I think of that? Because you're hardwired not to see holes in your own solutions. Let's fix that"
 ---
+
 I had been brought in to replace an old component that ran its own database to use the existing database instead. I read and looked at code, scratched my head, cursed and whiteboarded for a long time. Eventually I came up with a pretty nice solution. According to me.
 
 I told the person I shared office with that it's done! I drew boxes with arrows on the whiteboard and waited for an applause. "Wait - let me get the rest of the team" the reply came back. The rest of the team walked into the room, took a quick glance at the whiteboard and started tearing the solution to pieces.
@@ -11,7 +12,7 @@ Needless to say my fragile ego took a serious blow as I'd thought long and hard 
 
 After much scrutiny the solution was given ok by all people and was put in place. When the dust had settled and I had once again puffed up my ego to extreme heights I came to like the experience.
 
-You really had to get your shit together before you announced something as "done"! Needless to say, thinking "Why didn't I think of that?" isn't a peachy experience. You knew it, you just didn't think of it. 
+You really had to get your shit together before you announced something as "done"! Needless to say, thinking "Why didn't I think of that?" isn't a peachy experience. You knew it, you just didn't think of it.
 
 You learn nothing new. "I could never ever have thought of that myself" is much easier experience to accept.
 
@@ -39,7 +40,7 @@ A mundane real world example: you're building a file importer, you massage the d
 
 The data massage will run for some period of time, have some big-o boundary, and consume some amount of memory and CPU. The database is assumed to have some number of tables, rows and connections to it.
 
-Once you've listed all you can think of, go over each one of them and make the constraints extreme. In the example, what if you get a file 10x the size you expect? What if the file has no rows? 
+Once you've listed all you can think of, go over each one of them and make the constraints extreme. In the example, what if you get a file 10x the size you expect? What if the file has no rows?
 
 What if it has broken rows? What if it's not at all the format you're expecting? What if there's no file for weeks? Or what if there's 5 files at the same time with the same content?
 
@@ -64,7 +65,7 @@ Whatever it is, go around each part of it and ask "What is the downside of havin
 
 Then having listed the tradeoffs in your solution construct a contrasting solution that inverts the downsides of your current solution. This forces you to explicitly see the other side of what you've traded off.
 
-When you're done, write down the trade-offs you've done and the consequences of that trade-off. 
+When you're done, write down the trade-offs you've done and the consequences of that trade-off.
 
 Example: It will run 10% slower but use 20% less memory.
 
@@ -93,6 +94,7 @@ Knowing a bit of what you're competing with will also help you broaden your hori
 But having gone through all this you should feel good about saying it's done and bring in the rest of the team. You've done your part as far as you can. If someone finds a hole in your solution you shouldn't get that "Why didn't I think of that" feeling.
 
 It should be "I could never ever have thought of that myself".
+
 Which could also be called learning something new.
 
 And that's good.
