@@ -1,8 +1,9 @@
 ---
-title: How to own a code
+title: "How to own a code"
 date: 2020-11-06
-summary: Knowing the architecture of an application is like passively knowing a foreign language. When you speak it - it's awkward. Here's how you go from passively to actively owning a code-base.
+summary: "Knowing the architecture of an application is like passively knowing a foreign language. When you speak it - it's awkward. Here's how you go from passively to actively owning a code-base."
 ---
+
 This part two of [how to read a code](https://www.iamjonas.me/2020/08/how-to-read-code.html). In the first post I asked how to make a change to an unknown code base with confidence. Knowing the architecture of it is a necessary but often not sufficient step. You can make changes. But I doubt it's with confidence.
 
 You now have a passive understanding of it. Passively knowing an application is like having studied a foreign language but never really spoken it. When you try to speak it you say at best tourist clichés or get stuck working out the grammar in your head.
@@ -32,6 +33,7 @@ There will be things that the active developers forgot they did once they starte
 I fully expect to spend a day or two just getting one application to run when first getting into a new project because of this. The process often involves someone showing you at a rapid pace:
 
 "Oh, you need this credential. Then of course you need to comment out these lines. And oh, wait - Bob knows where you need to get credentials for the proxy talking to the backend-system". Ad nauseum.
+
 I try to get these setup sessions done on my machine. If so I usually take screenshots of what we're doing so I can go back and correct or inspect it at my own pace when the rapid session is over.
 
 If it's on some other person's computer I ask the person to take screenshots of what I need to do for the same reasons. Expect to do the walk of shame back a couple of times to ask for details that you missed, didn't fully understand or they simply forgot to tell you.
@@ -46,6 +48,7 @@ But! Running it locally the first time comes with it's perils. You need to stop 
 And we don't want that.
 
 The network is what will cause harm to any external resources. There are of course dangers of it messing up your own computer but at least that's locally and at worst just a reinstall of the OS away.
+
 A good way to see if it runs at all after it's been built is to isolate it in a container environment such as docker without a [network connection](https://docs.docker.com/network/none/). This way you can start it and watch if any network calls are made.
 
 Then you can dig in and see if those calls are dangerous operations or not. Visual studio code has a nice effort in [running code in a docker-container](https://code.visualstudio.com/docs/remote/create-dev-container) so you can run and alter it while internet-less.
@@ -141,6 +144,7 @@ But it paid off. You see, at first my seemingly faster but sloppier colleagues w
 Things would eventually break. Fast without being correct means nothing. Nothing! I, on the other hand, after going through all of the steps above knew what I was doing.
 
 A change made would only do what I expected it to do and nothing else because I knew how to verify it locally. When I got questions on how the application worked I usually knew it by heart, or I could do a quick test to verify my assumptions.
+
 But there's more. That hard work compounds. Yes, the first change was really slow. But the second went faster. And the third. And by the time the tenth change rolled in I would be flying through it.
 
 This is because by knowing the code that intimately I could also plan how to verify changes a lot faster and more accurate. I've built up an arsenal of verification methods while owning it.
