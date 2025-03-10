@@ -1,7 +1,7 @@
 ---
-title: Literate atomic commits
+title: "Literate atomic commits"
 date: 2021-01-25
-summary: We need to talk about your commit-messages
+summary: "We need to talk about your commit-messages"
 ---
 
 We all do it. Up to many times a day and yet it's rare that I meet someone that has given it a second thought. No, it's not secretly snacking chocolate from your top office drawer.
@@ -45,6 +45,7 @@ The canonical example of how to not do atomic commits is to format the code and 
 One is to change formatting and the other is the functional change. These two should be separate. Why is this important? This is where your brain comes into play. It can only hold so many things at a time. 
 
 Getting something right is hard but not impossible when dealing with a few moving parts. You can through testing and thinking reassure yourself that it's a 99% likelihood of it doing what you want.
+
 When there's many moving parts - in other words not a minimal solution anymore - the accurate and one part of the same sentence will not be true either.
 
 ## Atomic literate commits
@@ -57,6 +58,7 @@ The commit message will be your blank canvas where you in prose write in ways th
 Here's a not so contrived example with the commit message first:
 ``` text
 Read files of data concurrently
+
 In order to improve speed we read the 10 data-files concurrently
 and store their contents in a string slice (array).
 We need to pass the integer into the go function as an
