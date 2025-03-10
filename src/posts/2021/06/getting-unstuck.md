@@ -1,8 +1,9 @@
 ---
-title: Getting unstuck
+title: "Getting unstuck"
 date: 2021-06-18
-summary: You sigh. Maybe the compilation didn't work? You recompile and run it again. Nope. Still the same problem. You stare out the window.
+summary: "You sigh. Maybe the compilation didn't work? You recompile and run it again. Nope. Still the same problem. You stare out the window."
 ---
+
 You're stuck. But what exactly is this thing we call being stuck? It's when your mental model of a program does not match the actual program. You expect it to work in a certain way but it does not. As a developer this happens daily.
 
 Thankfully some hiccups are resolved easily and you move on. But some are not. Being stuck is dangerous as you can easily go off on wrong tangents and down rabbit-holes.
@@ -21,7 +22,6 @@ Since you wrote it you're very likely to have all the information necessary to f
 Because there is an overlap, how can you tell which one of the two modes you're likely to be stuck in?An indicator is the time spent programming in the new language of framework.
 
 The longer time you've spent, the more probable it is it's things [you do not understand (yet)](https://www.iamjonas.me/2021/08/i-dont-understand-this-yet.html).
-
 
 This post will focus on the first shade of stuck: Not knowing (yet).
 
@@ -58,7 +58,6 @@ So here we are in the first category: things we can read up on. In the book [Ult
 Using the wrong sources could mean learning unimportant concepts or worse flat out wrong information. Over the years I've found that good sources tend to be any official page the language / framework have.
 
 Second, I look for books with many recommendations. The reason is that both of these sources put a lot of thought into how to best organize material for newcomers. This means starting off with the basics.
-
 
 If it's an open source repo I clone it and inspect the top-level folder. Don't go any deeper or dig into the source. Just clone it. I do this because it takes the magic out of it. It is written in some language using constructs I could learn myself after all.
 

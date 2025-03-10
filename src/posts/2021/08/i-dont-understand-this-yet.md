@@ -1,8 +1,9 @@
 ---
-title: I don't understand this (yet)
-date: 2021-08-26
-summary: You gently face-palm and let out a groan. Your bug is so obvious now. How did you miss it before? Thank goodness you didn't blame Bob publicly.
+title: "I don't understand this (yet)"
+date: 2021-08-27
+summary: "You gently face-palm and let out a groan. Your bug is so obvious now. How did you miss it before? Thank goodness you didn't blame Bob publicly."
 ---
+
 In part one we looked at stuff you don't know (yet). This post we'll look at stuff we don't understand (yet). The first thing to do is to say to yourself without flinching "I know the basics of this". If you flinch you're out of your depth and on your way to wasting plenty of time.
 
 [Part I](https://www.iamjonas.me/2021/06/getting-unstuck.html) deals with that.

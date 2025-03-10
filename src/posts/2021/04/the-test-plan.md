@@ -1,16 +1,16 @@
 ---
-title: The test plan
+title: "The test-plan"
 date: 2021-04-26
-summary: > 
+summary: >
   "The tests are timing out again" someone yells. "Alright I'll bump them" you instinctively respond. Then you pause and feel uneasy. Is there another way?
 ---
 
-This is just between you and me, ok? I'm not comfortable with releasing code that's only been unit-tested. I've [preached at lengths](https://www.iamjonas.me/2020/11/how-to-own-code.html) on this blog on how being correct is the single most important thing for a developer.
+This is just between you and me, ok? I'm not comfortable with releasing code that's only been unit-tested. I've [preached](https://www.iamjonas.me/2021/01/literate-atomic-commits.html) [at](https://www.iamjonas.me/2020/11/how-to-own-code.html) [lengths](https://www.iamjonas.me/2020/06/overview-mode.html) on this blog on how being correct is the single most important thing for a developer.
 
 How can I get away with that?
 
 ## Why u no unit-test?
-This has been a long time concern for me. While the world seems to embrace unit-tests and code coverage as a measure of quality I've grown more distant to it. The back-story is as following: I've rarely been saved by a unit-test. 
+This has been a long time concern for me. While the world seems to embrace unit-tests and code coverage as a measure of quality I've grown more distant to it. The back-story is as following: I've rarely been saved by a unit-test.
 
 I'm saved by them mostly when I'm new to a project or have been working too long on the same feature. I've spent considerable time on writing unit-tests and even more time fixing them when they break.
 
@@ -27,7 +27,7 @@ For the sake of discussion let's nail down what a [unit-test](https://en.wikiped
 
 A unit-test is a program that is used to prove or disprove facts about another program (the code under test). It comes in some form of setup of data, execution of the routine under test and an inspection of the result comparing it to an expected outcome.
 
-There are two main flavors:  
+There are two main flavors:
 [Black box testing](https://en.wikipedia.org/wiki/Software_testing#Black-box_testing) where the details of the method is unknown and you only look at the result returned from the method given some input.
 
 [White box testing](https://en.wikipedia.org/wiki/Software_testing#White-box_testing) where the test knows about the details inside the method under test. The test includes passing stubs / fakes / mocks that are used to record calls to other methods that the method under test does.
@@ -70,11 +70,11 @@ Tests tend to get the stepchild treatment. Production code is what hits users. U
 
 The architecture of production code gets debated endlessly. Testing and the test-architecture seldom does. I've heard "we do unit-tests here", but I've yet to hear "Here's how and what we unit-test".
 
-I've often seen unit-tests violate the [DRY principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself). A unit-test is supposed to verify one and one thing only. It's an anti-pattern to check several things in one test. This can lead to a fair amount of duplication of setup-code only to test a slightly different result or a side-effect of generating a result. 
+I've often seen unit-tests violate the [DRY principle](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself). A unit-test is supposed to verify one and one thing only. It's an anti-pattern to check several things in one test. This can lead to a fair amount of duplication of setup-code only to test a slightly different result or a side-effect of generating a result.
 
 Refactor you say? That's really hard unless you're sure you've tested all there is to test as the next case might break what you thought was the general rule.
 
-Here's the final straw: I'm still not sure the code works. The individual pieces seem correct, but what happens when it hits production? If I make a change over here, will the tests over there catch the errors? 
+Here's the final straw: I'm still not sure the code works. The individual pieces seem correct, but what happens when it hits production? If I make a change over here, will the tests over there catch the errors?
 
 It depends is not a reassuring answer...
 
@@ -89,6 +89,7 @@ Last in your commit-message under the heading test-plan in ascii bullet-form des
 In my plans I'll start with the negative cases first and end with the often much fewer happy-path cases. For me it helps to think of breaking things before I congratulate myself for a job well done.
 
 Here's a cherry-picked commit message as an example from one of my repos:
+
 ``` markdown
 Add reading of a .env file
 
@@ -118,6 +119,7 @@ Test plan:
 ```
 
 The leading question when writing a test-plan is:
+
 "How can I confidently verify this as quickly as possible?".
 
 ## Executing the test-plan
@@ -156,23 +158,23 @@ Just as unit-tests are something concrete shipped with the code change so is a t
 
 A simple git blame on whatever row you're on will bring up how that row was verified. Coupled with [literate atomic commits](https://www.iamjonas.me/2021/01/literate-atomic-commits.html) you now have a wealth of context on not only why the change was done but also how it was supposed to work given the test plan.
 
-Test-plans can and should be something to include and comment on in a code-review. The reviewer should have input on what and how you tested. They can themselves run your tests as you've described them and assure themselves you knew what you were doing. 
+Test-plans can and should be something to include and comment on in a code-review. The reviewer should have input on what and how you tested. They can themselves run your tests as you've described them and assure themselves you knew what you were doing.
 
 ## Think first
-What I like most is the fact that I have to think first. Akin to [overview-mode](https://www.iamjonas.me/2020/06/overview-mode.html) it forces me to focus on the what to verify before I focus on the how. This makes code verification a surprisingly creative act. 
+What I like most is the fact that I have to think first. Akin to [overview-mode](https://www.iamjonas.me/2020/06/overview-mode.html) it forces me to focus on the what to verify before I focus on the how. This makes code verification a surprisingly creative act.
 
 There's no end to the options when you are no longer tied to frameworks, tools and code. Need a custom service to read values sent over a network call? Build one! Need to inject values from some third party application? Build a fake service for that! Need to quickly set up a certain state? Script that out!
 
 At the end of a project I'll usually have dozens of scripts and external fakes I use heavily in verifying my code. [Sider](https://github.com/jonaslu/sider) is an artifact of this. I also believe that here is where you can speed up development time.
 
-As the leading question goes: "How can I confidently verify this as quickly as possible?".
+As the leading question goes: "How can I confidently verify this as **quickly as possible**?".
 
 ## Exploratory testing included
 Starting at the system level and scoping down to the minimal level needed to verify means you'll learn the application much deeper than seen only through the lens of unit- and integration-tests.
 
 At the beginning of a project this means going end-to-end while inserting measuring points to verify. This is of course time consuming. But as time progresses you'll know more on how to scope things down from the entire system to smaller levels while still being positive that the system works.
 
-This is why I feel a lot more confident in code I've tested using my own scripted test-plan. It's been tested at the system-level under conditions and data as close to production as I can reasonably make it. 
+This is why I feel a lot more confident in code I've tested using my own scripted test-plan. It's been tested at the system-level under conditions and data as close to production as I can reasonably make it.
 
 A unit-test is simply too far away from the real thing and too sterile to reassure me. It feels like tapping on a mic and yelling "Hey, is this still on?"
 
