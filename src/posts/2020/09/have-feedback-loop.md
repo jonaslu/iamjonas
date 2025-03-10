@@ -1,9 +1,10 @@
 ---
-title: Have a feedback loop
+title: "Have a feedback loop"
 date: 2020-09-25
 summary: >
-  "I believe we can quickly rise to the top if we never repeat the same mistake twice". I decided to test that. 4½ years later and many of my mistakes recorded where's what happened.
+    "I believe we can quickly rise to the top if we never repeat the same mistake twice". I decided to test that. 4½ years later and many of my mistakes recorded where's what happened.
 ---
+
 I want to get better at whatever I do. It's a drive I have always had. Later I discovered via Daniel Pink's book aptly called [Drive](https://www.danpink.com/books/drive/) in order to be happy three things are required: autonomy, mastery and purpose.
 
 Programming is a very thankful field when coming to two of the three points made above. There is high autonomy since there are few programmers to go around and since fewer people really understand what you do, you get left alone. You're the expert.
