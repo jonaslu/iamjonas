@@ -1,9 +1,10 @@
 ---
-title: How to read a code
+title: "How to read a code"
 date: 2020-08-11
 summary: >
-  "Oh that's Steves code. He quit two years ago. We don't touch it. It just works and no-one knows how. Just let it be."
+    "Oh that's Steves code. He quit two years ago. We don't touch it. It just works and no-one knows how. Just let it be."
 ---
+
 How do you change code in a large code-base with confidence? That depends of course. If you are the author of the code, changing something you wrote yourself with confidence should be easy. Every nook and cranny will be well known to you.
 
 You run through the subsystems in the code and check for impact, make the change and test it to verify you haven't missed anything. But greenfield projects where you will be the sole author are exceedingly rare in my experience.
@@ -56,11 +57,11 @@ This book will be the driving force of the processes of learning the code base w
 I'll include a shorter version of the three first levels as they are of interest to this post.
 
 ## Three first stages of reading a book
-**First level - Elementary reading** - in which the reader is not hindered by the language (i e is fluent in reading the language of the book). At this level the reader reads a book cover to cover not giving it much thought of the structure or if it's a book worth reading before the end is reached. 
+**First level - Elementary reading** - in which the reader is not hindered by the language (i e is fluent in reading the language of the book). At this level the reader reads a book cover to cover not giving it much thought of the structure or if it's a book worth reading before the end is reached.
 
 This is the most common level to read at. Not surprisingly according to the authors there's more efficient ways (and more work) of really understanding a book.
 
-**Second level - Inspectional reading** - in which the user tries to find out the most of a book in a limited time by asking the question "What is the book about, as a whole?". 
+**Second level - Inspectional reading** - in which the user tries to find out the most of a book in a limited time by asking the question "What is the book about, as a whole?".
 
 The first phase includes skimming, reading the back and front-matter, the TOC, the index and a few selected pages here and there.
 
@@ -97,7 +98,8 @@ Following the outline of the second and third level of reading let's apply that 
 
 To find that out we'll start with the inspectional reading phase. In the book the question we're trying to answer is when doing inspectional reading is "What is the book about, as a whole?". When learning the code base we're going to slightly alter that question into: "What problem does it solve?"
 
-So - first grab a piece of paper and pen. Write that out as a heading. This is a good way of priming your already existing information. And to add to the excitement of priming your mind add in two questions: "How would I implement this?" and "What do I know of the domain"? 
+So - first grab a piece of paper and pen. Write that out as a heading. This is a good way of priming your already existing information. And to add to the excitement of priming your mind add in two questions: "How would I implement this?" and "What do I know of the domain"?
+
 Then without looking at the README or similar - just write down what you know about the project beforehand.
 
 ![Note with headings on what problem the code solves](./note-what-problem-does-it-solve.png) 
@@ -231,6 +233,7 @@ At the top and inside the method sprinkle in comments on what it does. I call th
 ![VS code with comments describing methods in prose](./writing-back-into-prose.png)
 
 Fold the method once done and unfold the next one keeping details hidden in all but the current method under inspection.
+
 This way we're reifying from code to human-language. I find it much easier to remember the gist of a method this way, writing it back to human language in my own words.
 
 It's a shame code isn't written like this by default for this way we could have applied the "how to read a book" straight off on code-bases too.
