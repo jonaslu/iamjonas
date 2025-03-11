@@ -1,8 +1,9 @@
 ---
-title: Getting better at it
+title: "Getting better at it"
 date: 2019-08-13
-summary: Want to get better at programming? Me too!
+summary: "Want to get better at programming? Me too!"
 ---
+
 I love programming! It's even worse now after having done it for almost three decades.
 
 I thought that it would perhaps settle down and become more of a bread-winner and less of an exciting game - but on the contrary, it just gets more and more exciting. Here's why...
@@ -33,6 +34,7 @@ As the practiced skill becomes more and more automatic and you stop improving an
 
 ## Deliberate practice
 Luckily for this blog-post and for Anders K Ericssons career - there is an anti-dote to the naïve pattern. That anti-dote is called deliberate practice.
+
 Deliberate practice is defined as purposeful and systematic. It is focused attention and is conducted with the specific goal of improving performance.
 
 It's practice where you've identified an area of weakness, broken down the steps you need to do to do that thing well and then sequencing the steps - paying close attention to direct feedback of your progress - until you can do it without thinking. Then you move on to the next thing.
@@ -53,14 +55,16 @@ To get at the top of a discipline via deliberate practice you're best off if the
 *   There's a long tradition of teaching
 *   There's a fairly known straight line progression from novice to expert
 *   There's a tight feedback loop if you're doing great or if you're fairing badly
-  
+
 The canonical example is chess. It's been around for some 1500 years. There are competitions and a world ranking chart. There are schools teaching chess and ample of books all directed at becoming better and reaching the top. The mere fact that chess is played in competition with someone else  provides a good feedback loop and opportunities to find weaknesses to work on.
+
 In a nutshell everything programming is not. Boo... So now I've wasted your time on lots of words just to come to this conclusion.
 
 ## Then what to aim for?
 There's two quotes from [Max Alexander Kanat](https://max.kanat-alexander.com/) that has stuck with me and has been a guide to what to practice for. First quote goes [like this](https://www.codesimplicity.com/post/the-singular-secret-of-the-rockstar-programmer/)  - "There are no rockstar programmers. There's only people who understand what they're doing far, far better than average or mediocre programmers."
 
 Second from the same post is - "The better that you understand the _most fundamental level_ of your field, the easier it will be to learn the next level." This sounds very much like deliberate practice doesn't it?
+
 It also gives a good indication of what to aim for when starting to practice. To understand what you're doing, you need to know the fundamentals of the level below you (and so forth).
 
 ## But seriously, what are the fundamentals?
@@ -87,7 +91,9 @@ Yes, it's a programming language (the only one) on this list. Why that will help
 2) Libraries! There's a vast (vast) sea of libraries out there of C code. There might be bindings or a different implementation in your language but it most probably came from here
 
 3) You'll appreciate modern programming languages with memory management and garbage collection even more
+
 I've been following [this book](https://learning.oreilly.com/library/view/learn-c-the/9780133124385/) with gusto - in part because of Zed Shaws teaching style which I found really enlightening (the parts on making index cards, try to destroy the program etc are things I now routinely use). [This](https://www.amazon.com/Expert-Programming-Peter-van-Linden/dp/0131774298) is also good and really funny.
+
 But the most important reason why is the next:
 
 ## Operating systems!
