@@ -1,8 +1,9 @@
 ---
-title: Overview mode
+title: "Overview mode"
 date: 2020-06-05
-summary: Sound familiar? You're 95% done some touching up then commit and run. And from nowhere that last little detail puts you back to square one.
+summary: "Sound familiar? You're 95% done some touching up then commit and run. And from nowhere that last little detail puts you back to square one."
 ---
+
 Does this sound familiar? You're about 95% done, just some touching up then commit and run. "This afternoon or tomorrow morning at most" you tell the stakeholders. And out of nowhere it jumps up and bites you. That little detail you left for last is now what throws the entire effort overboard.
 
 I've been there. And so have you.
