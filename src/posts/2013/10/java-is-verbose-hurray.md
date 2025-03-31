@@ -9,7 +9,7 @@ Java has been declared dead for so long that its refreshing to see some [recent 
 One popular argument for its oncoming demise is that its syntax is being overly verbose. While I agree on some of it (I’d love to have some way of generating simple getters and setters built in to the language) the verbosity does buy you something in return:
 
 ## No golf
-There is no java golf (based my thorough research of checking the first page on googling java golf vs perl golf) and that’s a good thing. There’s usually only one way to do it. As discussed in [the next big languge](http://www.catchmecode.com/2013/04/the-next-big-language.html) I think that’s why Java has fared (and continues to) fare so well – it’s syntax.
+There is no java golf (based my thorough research of checking the first page on googling java golf vs perl golf) and that’s a good thing. There’s usually only one way to do it. As discussed in [the next big languge](/2013/04/the-next-big-language.html) I think that’s why Java has fared (and continues to) fare so well – it’s syntax.
 
 There is little debate in the Java camp how you write a piece of code the most Java way. More syntactically liberal languages frequently has this: what is the most idiomatic way to write X in language Y?
 
