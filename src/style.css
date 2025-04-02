@@ -46,10 +46,10 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #494e55;
   background-color: #eeeee6;
+  font-size: 21px;
 }
 p {
   font-weight: 200;
-  font-size: 21px;
   line-height: 1.4;
   margin: 0 0 30px;
 }
@@ -159,7 +159,6 @@ img {
 ul, ol {
   margin: 0 0 30px 15px;
   padding: 0;
-  font-size: 21px;
 }
 picture + em {
   display: block;
@@ -172,6 +171,22 @@ picture + em {
     float: right;
     margin-top: 37px;
   }
+}
+table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+}
+table th,
+table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
 }
 @media (max-width: 768px) {
   .nav,
@@ -196,9 +211,6 @@ picture + em {
   }
   body {
     text-align: justify;
-    font-size: 15px;
-  }
-  p, ul, ol {
     font-size: 15px;
   }
   .section {
