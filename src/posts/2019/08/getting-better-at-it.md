@@ -11,10 +11,10 @@ I thought that it would perhaps settle down and become more of a bread-winner an
 ## Except it wasn't like that...
 Well, not entirely true. Back up about 3 years and I was really in a slump when it came to programming. There were dark thoughts about ageism and that you either got it or not. And that will show at an early age. If it did not - you're were out of luck.
 
-But - even if this was true - branching out on my own meant I had to do **something** to become an at least average marketable product. From there the research started.
+But - even if this was true - branching out on my own meant I had to do **something** to become an at least average marketable product. From there the research started.
 
 ## Getting better: what does that mean?
-It's a noble and lofty goal to get better at something. It sounds great at cocktail partys (do those still exist?). It's also almost practically useless. What does mean to get better at programming? Is it  possible or is it just innate? How can  you even measure if you are progressing?
+It's a noble and lofty goal to get better at something. It sounds great at cocktail partys (do those still exist?). It's also almost practically useless. What does mean to get better at programming? Is it possible or is it just innate? How can you even measure if you are progressing?
 
 Actually you can (to some extent). A while into my research on the topic I stumbled upon a book called [Peak: Secrets from the New Science of Expertise](https://en.wikipedia.org/wiki/Peak:_Secrets_from_the_New_Science_of_Expertise) by a fellow named Anders K Ericsson. Anders K has spent the better part of his life studying how people become experts at something in a variety of fields and incidentally became an expert on how experts become experts.
 
@@ -56,12 +56,12 @@ To get at the top of a discipline via deliberate practice you're best off if the
 *   There's a fairly known straight line progression from novice to expert
 *   There's a tight feedback loop if you're doing great or if you're fairing badly
 
-The canonical example is chess. It's been around for some 1500 years. There are competitions and a world ranking chart. There are schools teaching chess and ample of books all directed at becoming better and reaching the top. The mere fact that chess is played in competition with someone else  provides a good feedback loop and opportunities to find weaknesses to work on.
+The canonical example is chess. It's been around for some 1500 years. There are competitions and a world ranking chart. There are schools teaching chess and ample of books all directed at becoming better and reaching the top. The mere fact that chess is played in competition with someone else provides a good feedback loop and opportunities to find weaknesses to work on.
 
 In a nutshell everything programming is not. Boo... So now I've wasted your time on lots of words just to come to this conclusion.
 
 ## Then what to aim for?
-There's two quotes from [Max Alexander Kanat](https://max.kanat-alexander.com/) that has stuck with me and has been a guide to what to practice for. First quote goes [like this](https://www.codesimplicity.com/post/the-singular-secret-of-the-rockstar-programmer/)  - "There are no rockstar programmers. There's only people who understand what they're doing far, far better than average or mediocre programmers."
+There's two quotes from [Max Alexander Kanat](https://max.kanat-alexander.com/) that has stuck with me and has been a guide to what to practice for. First quote goes [like this](https://www.codesimplicity.com/post/the-singular-secret-of-the-rockstar-programmer/) - "There are no rockstar programmers. There's only people who understand what they're doing far, far better than average or mediocre programmers."
 
 Second from the same post is - "The better that you understand the _most fundamental level_ of your field, the easier it will be to learn the next level." This sounds very much like deliberate practice doesn't it?
 
@@ -103,7 +103,7 @@ There are two parts to knowing an operating system (or any library you're intera
 
 The second part of knowing an operating system is building something that resembles one yourself. How enlightening! Processes, threads, memory management all those weird flags and buffer-sizes you sometimes have to set. Now you'll know what those actually mean and why they are there.
 
-This looked promising: [The little book about OS development](https://ordoflammae.github.io/littleosbook/) (its a fork of the [original](https://littleosbook.github.io/): which seems to have died - the fork includes all issues reported on the original book), but at a closer inspection there are several mistakes (see the [issue list](https://github.com/littleosbook/littleosbook/issues)). I've been following [this](http://www.jamesmolloy.co.uk/tutorial_html/) which is more complete than the little book in combination with [this](http://www.osdever.net/tutorials/view/brans-kernel-development-tutorial) and the book above. The three of them makes for a complete tutorial enough.
+This looked promising: [The little book about OS development](https://ordoflammae.github.io/littleosbook/)(its a fork of the [original](https://littleosbook.github.io/): which seems to have died - the fork includes all issues reported on the original book), but at a closer inspection there are several mistakes (see the [issue list](https://github.com/littleosbook/littleosbook/issues)). I've been following [this](http://www.jamesmolloy.co.uk/tutorial_html/) which is more completethan the little book in combination with [this](http://www.osdever.net/tutorials/view/brans-kernel-development-tutorial) and the book above. The three of them makes for a complete tutorial enough.
 
 Not a full programming tutorial - but a fascinating read: [The linux insides](https://0xax.gitbooks.io/linux-insides/content/).
 

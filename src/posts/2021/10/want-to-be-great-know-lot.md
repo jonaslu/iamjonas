@@ -4,16 +4,16 @@ date: 2021-10-26
 summary: "Remember that time where you knew of a solution that no-one else did? And it worked exceptionally well too. I bet you felt like a great programmer. Let's make that happen again!"
 ---
 
-In the book [Ultralearning](https://www.scotthyoung.com/blog/ultralearning/) Scott H Young argues that the difference between a great programmer and mediocre programmer is not the ability to solve problems. Both can often get the job done. But the great programmer knows a dozen or more ways to solve the problem and can apply the most effective solution for the case at hand.
+In the book [Ultralearning](https://www.scotthyoung.com/blog/ultralearning/) Scott H Young argues that the difference between a great programmer and mediocre programmer is not the ability to solve problems. Both can often get the job done. But the great programmer knows a dozen or more ways to solve the problem and can apply the most effective solution for the case at hand.
 
 Mediocre sounds like a put down and we've all been there so let's call that person less knowledgeable instead. The less knowledgeable programmer only knows a few or even one solution and deploys that solution unaware that there are better ways.
 
-I can look it up if I need to, you might think. The problem is how do you look up something you don't even know exists? These are the unknown unknowns. Things you don't know you don't know. And those are indeed hard to look up. 
+I can look it up if I need to, you might think. The problem is how do you look up something you don't even know exists? These are the unknown unknowns. Things you don't know you don't know. And those are indeed hard to look up.
 
 To become better you need to know what's out there. You need to turn the unknown unknowns into known unknowns.
 
 ## Learning deep vs broad
-In the previous posts [how to read a code](https://www.iamjonas.me/2020/08/how-to-read-code.html) and [I don't understand this yet](https://www.iamjonas.me/2021/08/i-dont-understand-this-yet.html) we looked at learning one subject deeply. Both use a top-down first approach where you scan for core concepts that you can link more information onto while bottom-up:ing.
+In the previous posts [how to read a code](https://www.iamjonas.me/2020/08/how-to-read-code.html) and [I don't understand this yet](https://www.iamjonas.me/2021/08/i-dont-understand-this-yet.html) we looked at learning one subject deeply. Both use a top-down first approach where you scan for core concepts that you can link more information onto while bottom-up:ing.
 
 Things change when we're dealing with a huge field of information. We need to focus on a limited set of concepts and then move on. There's simply no time nor would it be useful to know every little detail since it might never relate what you're doing.
 
@@ -31,7 +31,7 @@ If you know these three core concepts you can proceed with further learning. If 
 If many articles / blogs / repos mention a concept - it's probably important to know. If one or only a few mention it it's likely less important.
 
 ## Syntopical reading
-We return once again to the indispensable book [how to read a book](https://en.wikipedia.org/wiki/How_to_Read_a_Book). The fourth level of reading is called syntopical reading. It goes as follows: First you have some subject you'd like to know more about. You then build a bibliography of relevant books on the subject you want to know more about.
+We return once again to the indispensable book [how to read a book](https://en.wikipedia.org/wiki/How_to_Read_a_Book). The fourth level of reading is called syntopical reading. It goes as follows: First you have some subject you'd like to know more about. You then build a bibliography of relevant books on the subject you want to know more about.
 
 Quickly scan all selected books and discard those that did not fit. Then you scan the remaining books again and collect relevant passages to your subject. After that you define a neutral terminology and interpret each author's passage into this neutral terminology.
 
@@ -64,7 +64,7 @@ Ignorance hides in such words. You think you know what it means, but in reality 
 Take your relevant passages collected above and compress them with the Feynman-technique. Now you have what a software package does and it's core concepts in simple short language. Good job so far!
 
 ## Make the information accessible
-When pressure is on we tend to shut down mentally. Our thought patterns narrow and we fall back on instincts and well rehearsed routines. This is bad for remembering things you've learnt about broadly. 
+When pressure is on we tend to shut down mentally. Our thought patterns narrow and we fall back on instincts and well rehearsed routines. This is bad for remembering things you've learnt about broadly.
 
 They're less rehearsed than what you use frequently and will be further back in your mind exactly when you need them. In order to mitigate this we are going to make the information we just dug up more accessible by actively trying to come up with questions where the information is the answer.
 

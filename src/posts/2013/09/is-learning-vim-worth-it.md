@@ -91,4 +91,3 @@ If you do decide to go for it: Do a screencast of yourself using your old editor
 If there is a vim wizard near you – seek them out and ask if you could see them in action. Are they as fast as you’d like to become? Is what they do something you should be doing?
 
 If you don’t know a vim wizard – (and even if you do) watch sceencasts of wizards using vim. Try to pick up on what they do and see if its something you’d like to achieve. Does it look natural or akward to you? Switch back to your old ways once in a while. Compare and make sure you’re getting your moneys worth.
-window.disqus\_identifier='http://catchmecode.com/blog/2013/09/11/is-learning-vim-worth-it/';

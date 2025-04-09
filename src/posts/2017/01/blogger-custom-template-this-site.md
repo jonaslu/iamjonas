@@ -23,7 +23,7 @@ But there I was staring at the 2k sloc behemoth with hair. And I'm assuming so a
 Caveats
 -------
 
-As said on the outset - this post is aimed at creating a sane template that is highly customizable. However in going that route - the [default theme configurator](https://support.google.com/blogger/answer/176245?hl=en&ref_topic=3339243) and most of the settings inlined in the template will break. It relies on widgets and sections being named a certain way and my approach was to go bare metal html. You'll have complete control and can add things back in later. But it's going to hurt.
+As said on the outset - this post is aimed at creating a sane template that is highly customizable. However in going that route - the [default theme configurator](https://support.google.com/blogger/answer/176245?hl=en&ref_topic=3339243) and most of the settings inlined in the templatewill break. It relies on widgets and sections being named a certain way and my approach was to go bare metal html. You'll have complete control and can add things back in later. But it's going to hurt.
 
 If you don't want (or know how to) to do html via xml and css this path is not the way to go. [Download](http://bit.ly/zSxS1c) some pre-baked instead. No shame.
 
@@ -52,9 +52,9 @@ It compiles (== no errors in the editor) and it displays a page with a heading. 
 We'll add in the useful bits of blogger stuff as we go along to make it display data. And don't worry about the CDATA line.
 
 ## Widgets
-The thing that took most brainpower to figure out was how the data was populated on the page. [Widgets](https://support.google.com/blogger/answer/46995) are how. The name is a bit misleading.  I mistook widgets as something quite static that you add to the page - like the stuff you find under  Blogger > Layout (small lists, static html etc).
+The thing that took most brainpower to figure out was how the data was populated on the page. [Widgets](https://support.google.com/blogger/answer/46995)are how. The name is a bit misleading. I mistook widgets as something quite static that you add to the page - like the stuff you find under Blogger > Layout (small lists, static html etc).
 
-But all widgets are not created equally. The secret sauce is that they have different contents depending on what context the page is shown.  I imagine widgets are something like resultsets from queries to the underlying database.
+But all widgets are not created equally. The secret sauce is that they have different contents depending on what context the page is shown. I imagine widgets are something like resultsets from queries to the underlying database.
 
 Using this [lovely tool](http://blogger2ools.mystady.com/) that someone wrote you can figure out what data you can pull out of the different widgets on the different type of pages (front page, post page, static page etc). I've just recently also noted that if you inspect your page via say F12 in chrome - there is a script-tag at the far end of the page that seems to populate some object via javascript:
 
@@ -65,14 +65,14 @@ If you copy paste the inner contents of that tag into a js-beautifier, you'll ge
 I'll be focusing on the blog widget. The rest of them can be dug out using the methods in this post - but the focus of this post is to get only a page listing, post display and static pages.
 
 ## Blog widget
-The most useful (and confusing) widget by far is the [page post](https://support.google.com/blogger/answer/47270#posts) widget as it triples as a page listing and search result for older posts for the main page, an individual post display and the static page display.
+The most useful (and confusing) widget by far is the[page post](https://support.google.com/blogger/answer/47270#posts)widget as it triples as a page listing and search result for older posts for the main page, an individual post display and the static page display.
 
 The difference is best explained via examples. Contrast these three links:
 *   [Front page](http://blogger2ools.mystady.com/#Blog1)
 *   [Individual blog: post](http://blogger2ools.mystady.com/2011/04/amazon-s3-hosted-png.html#blog-posts-widget-posts-list)
 *   [Static page](http://blogger2ools.mystady.com/p/test-page-one.html#Blog1)
 
-Notice how the post lists data object only contains one item on link 2 and 3 above, whilst it contains several on link 1. A simple [diff](https://www.diffchecker.com/w7lsz2rr) (individual post left pane, index page right pane) will show that the posts-list (on line 49) contains only one item on an individual or static page, but many on the front page.
+Notice how the post lists data object only contains one item on link 2 and 3 above, whilst it contains several on link 1. A simple [diff](https://www.diffchecker.com/w7lsz2rr)(individual post left pane, index page right pane) will show that the posts-list (on line 49) contains only one item on an individual or static page, but many on the front page.
 
 This means that you'll loop posts on both types of pages. But the post page (as contrasted with the post-list = index page) will include only one item on the post-list array (the current post).
 
@@ -83,7 +83,7 @@ Like the link says you can only put widgets inside a section - so your page will
 
 ``` xml
 <body>
-  ...header html...
+  ...header html...
   <b:section id='header' class='header' maxwidgets="1" showaddelement="no">
     <b:widget \[...attributes...\]>
     </b:widget>
@@ -125,9 +125,9 @@ Evidently, data for the includable is passed via data='{var}' and imported via t
 In addition to the main includable, blogger adds a ton of other mandatory includables when saving in the template editor. This is annoying but cannot be turned off. What I finally did was setting them with empty content so they are there but take up minimal space.
 
 ## Page types
-Moving on - how do you know if you're in post list mode or in displaying an individual post  - i e how do you conditionally select what includable to display?
+Moving on - how do you know if you're in post list mode or in displaying an individual post - i e how do you conditionally select what includable to display?
 
-There are page types. Its just not that well documented. Again some fine person has coded up on the [type of pages](http://mystady.com/2011/05/7-blogger-page-types-analysis-code.html) and how to detect when what is what.
+There are page types. Its just not that well documented. Again some fine person has coded up on the [type of pages](http://mystady.com/2011/05/7-blogger-page-types-analysis-code.html) and how to detect when what is what.
 Using the page detection type we can now select includable depending on what the page type is - since the post listing and the post display should look different:
 
 ``` xml
@@ -177,7 +177,7 @@ It might also print out error messages in the preview and not the editor itself 
 Also - the old adage - "when in doubt - use cout" applies here too. You can - just like the blogger2ool page listed above print to your page in clear text what data a tag contains. Wrap the tag in a <p> or some element that displays the raw text.
 
 ## The CDATA hack
-Ha, almost think I'd wouldn't get to that one did you? It's a hack. The template needs a [<b:skin></b:skin>](https://support.google.com/blogger/answer/46871?hl=en&ref_topic=6321969) tag on the page or the editor will complain. The problem is that this tag includes bundled css from google that will collide with your custom css.
+Ha, almost think I'd wouldn't get to that one did you? It's a hack. The template needs a [<b:skin></b:skin>](https://support.google.com/blogger/answer/46871?hl=en&ref_topic=6321969) tag on the page or the editor will complain. The problem is that this tag includes bundled css from google that will collide with your custom css.
 
 So this hack wraps the included contents in in a comment and the css is not downloaded and parsed.
 

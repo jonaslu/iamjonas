@@ -16,7 +16,7 @@ You think it should behave in a certain way but it does not. This is caused by y
 We have to ourselves dig out context enough to correct the mental model.
 
 ## The a-ha moment
-You must have experienced it by now: the a-ha moment where it clicks in place and the solution is obvious. It's called a flash of insight for a good reason. Brain scans [have shown](https://brainworldmagazine.com/aha-moment-science-behind-creative-insight/) that the right side of the brain lights up with gamma waves about ⅓ of a second before you actually arrive at the solution. 
+You must have experienced it by now: the a-ha moment where it clicks in place and the solution is obvious. It's called a flash of insight for a good reason. Brain scans [have shown](https://brainworldmagazine.com/aha-moment-science-behind-creative-insight/) that the right side of the brain lights up with gamma waves about ⅓ of a second before you actually arrive at the solution.
 
 Gamma waves are a sign of new neural pathways forming in your brain. A classical example of this is the coin insight problem. The coins are arranged in a pyramid as shown in the image and your mission Jim, should you choose to accept it, is to invert the triangle moving three coins only.
 
@@ -94,7 +94,7 @@ When trying to prove or disprove the debugger is of great use as it becomes a ve
 ## Einstellung effect
 The annoying thing with insight into a confusing problem is that it cannot be forced. It can only be invited. Trying the trivial things and getting frustrated is just part of the ground work that needs to be put in.
 
-The problem is that we get caught in the same mental rut. You need to take deliberate action to step out of that rut. In Barara Oakleys excellent book [A mind for numbers](https://barbaraoakley.com/books/a-mind-for-numbers/) this is called the einstellung effect. This is when you're so caught in old thought patterns that you can't step back enough to see the bigger picture.
+The problem is that we get caught in the same mental rut. You need to take deliberate action to step out of that rut. In Barara Oakleys excellent book [A mind for numbers](https://barbaraoakley.com/books/a-mind-for-numbers/) this is called the einstellung effect. This is when you're so caught in old thought patterns that you can't step back enough to see the bigger picture.
 
 According to the book you have two modes of thinking: the focused and the diffuse mode. The focused mode is just what it sounds like - deliberate step by step calculations. It's what you do when you try the obvious solutions or step lines in a debugger.
 
@@ -118,7 +118,7 @@ Here's where it gets even more trippy. The location might hold you back. Yes, it
 
 One place can be strongly associated with one way of thinking. Or at least it feels burnt out. Simply by moving to a new place there's a feeling of starting over. Make it a point to switch locations at the first hint of frustration or slowing down.
 
-Use an empty conference or meeting room. Walk into the cafeteria after lunch-hours. Go to a different floor. Ask if a colleague will switch places with you. Get out of the building you work in if you can. 
+Use an empty conference or meeting room. Walk into the cafeteria after lunch-hours. Go to a different floor. Ask if a colleague will switch places with you. Get out of the building you work in if you can.
 
 Anything to change where you come up with theories.
 
@@ -129,8 +129,8 @@ The main gist is having an open mind and spending lots of time on researching th
 
 Which brings us right to the last crucial component of problem solving: patience. The diffuse mode shuts down when we're stressed. There's no time for dreamy big picture thinking during crunch time. Being patient and staying calm is not merely a nice new-age thing, but necessary for progress.
 
-That patience and calm should come from the fact that the process above is systematic. For each theory generated, write down why it failed in the description of your problem. 
+That patience and calm should come from the fact that the process above is systematic. For each theory generated, write down why it failed in the description of your problem.
 
-Then break and come back for another round. You're making incremental progress and your growing problem description is evidence to anyone who thinks you're slacking off. Which is what you periodically should be doing. 
+Then break and come back for another round. You're making incremental progress and your growing problem description is evidence to anyone who thinks you're slacking off. Which is what you periodically should be doing.
 
 ![road-sign](./road-sign.png)

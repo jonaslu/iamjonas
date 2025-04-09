@@ -31,7 +31,7 @@ The real (from the simplified [RFC](https://www.ietf.org/rfc/rfc5322.txt)) deal 
 But most of the time it's not the same wheel. It's only superficially the same wheel.
 
 ## Why bother?
-I have myself been known to joke and allude to the [xkcd strip](https://imgs.xkcd.com/comics/automation.png) as a form of don't reinvent the wheel.
+I have myself been known to joke and allude to the [xkcd strip](https://imgs.xkcd.com/comics/automation.png) as a form of don't reinvent the wheel.
 
 There is a good enough wheel already in place. It'll get the job done. Why waste time inventing another?
 
@@ -65,7 +65,7 @@ The last section is adorable: "vim-plug works for me… it is highly likely that
 
 At 18.8k stars on [github](https://github.com/junegunn/vim-plug) at the time of writing I guess we can pinpoint that to the latter definition of yak shaving.
 
-Because maybe, just maybe this wheel will not only be fun and and learning about technology  in the process. Maybe it'll be the one hugely useful to others too? Wouldn't you like to find that out?
+Because maybe, just maybe this wheel will not only be fun and and learning about technology in the process. Maybe it'll be the one hugely useful to others too? Wouldn't you like to find that out?
 
 ## Is the irony lost?
 Yes. Sadly the irony is almost always lost in a self-promoting post. You should totally use [sider](https://www.npmjs.com/package/@jonaslu/sider) and reinvent some other wheel.

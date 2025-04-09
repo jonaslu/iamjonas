@@ -17,7 +17,7 @@ The way you're calling those third party routines is not right. Because the erro
 
 An example of the second shade not understanding (yet) is when a pure function you wrote returns something else than you expect it to. Your view of what the function should do and what it actually does is off.
 
-Since you wrote it you're very likely to have all the information necessary to fix it and get unstuck.  
+Since you wrote it you're very likely to have all the information necessary to fix it and get unstuck.
 
 Because there is an overlap, how can you tell which one of the two modes you're likely to be stuck in?An indicator is the time spent programming in the new language of framework.
 
@@ -32,7 +32,7 @@ It is true that I know far more now than when I set out on this crazy journey. T
 
 Some of the time you get away with this. But when you don't it backfires wildly. "I know what I'm doing" makes it hard to recognize what you don't know (yet) and hard to admit.
 
-Expectations will also be higher because of accumulated experience. This makes it even harder to admit.  Simply recognizing the possibility helps you get off that ivory tower. I try to say it out loud: "I might not know this (yet)".
+Expectations will also be higher because of accumulated experience. This makes it even harder to admit. Simply recognizing the possibility helps you get off that ivory tower. I try to say it out loud: "I might not know this (yet)".
 
 There. It feels better now. Let's fix that!
 
@@ -83,7 +83,7 @@ The key is that the explanation is given in the target language and not a transl
 
 If the explanation is given in the target language it will give you more things to read up on and understand in turn. Your knowledge and understanding expands rapidly this way.
 
-In programming the question "what does that mean" translates into asking **where** to look and then looking at **what** is going. Being able to do this will help immensely on what to read up next.
+In programming the question "what does that mean" translates into asking **where** to look and then looking at **what** is going. Being able to do this will help immensely on what to read up next.
 
 ## States and stacks
 **Where to look** equals getting a call-stack out so you can trace the program flow. **What is going on** equals to dumping out values of variables at some location.

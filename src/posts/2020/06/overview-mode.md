@@ -23,7 +23,7 @@ Being fast has two sides. The first is the highly visible mechanics of when you 
 The hero syndrome (or lack of) had a massive driving assumption: Grasping at any solution that looked superficially right and then diving right into trying to maximize the mechanics of having _the right solution_. I e being fast by being lucky. And I'm not lucky.
 
 ## Trading stocks like a pro
-In stock trading there a thing called [selling short](https://www.investopedia.com/terms/s/shortselling.asp). It's also known as blanking. You believe that a stock will fall and thus you borrow a stock from some other shareholder at some interest whilst the stock is held. You sell it at some price and then wait for the price to fall so you can buy it back at a cheaper price returning it to the owner and pocket the difference between selling and buy-back price.
+In stock trading there a thing called [selling short](https://www.investopedia.com/terms/s/shortselling.asp). It's also known as blanking. You believe that a stock will fall and thus you borrow a stock from some other shareholder at some interest whilst the stock is held. You sell it at some price and then wait for the price to fall so you can buy it back at a cheaper price returning it to the owner and pocket the difference between selling and buy-back price.
 
 This is dangerous strategy as the possible gain is limited to your selling price. You can't buy it back for less than 0. But the downside is unlimited. If the stock price instead rises, and theoretically the price can be infinite, you're forced to buy back the stock at whatever the current price is and pocketing a net loss for the buy-back minus selling price. There's a potentially huge cost for being wrong.
 
@@ -37,7 +37,7 @@ When realizing this was a problem I started to look around at how to mitigate th
 The gist of it is: were not spending enough time upfront explicitly stating and understanding what the problem we're solving really is. Once well understood we can then propose a solution and assessing whether that solution actually solves the proposed problem. It involves writing things down. A lot.
 
 ## Peak again
-When reading the book [Peak](https://www.amazon.com/Peak-Secrets-New-Science-Expertise/dp/1531864880) by Anders K Ericsson et al, I was struck by research contrasting experts to novices in the way they approach solving a problem. Experts in a field spend more time at the outset thinking about the nature of the problem and possible approaches before jumping in solving it. This echoes well with Rich Hickeys sentiment. Spend more time upfront.
+When reading the book [Peak](https://www.amazon.com/Peak-Secrets-New-Science-Expertise/dp/1531864880) by Anders K Ericsson et al, I was struck by research contrasting experts to novices in the way they approach solving a problem. Experts in a field spend more time at the outset thinking about the nature of the problem and possible approaches before jumping in solving it. This echoes well with Rich Hickeys sentiment. Spend more time upfront.
 
 What Peak added was that experts not only spend more time upfront but also regularly revise their plan as the procedure progresses. An example is a surgeon performing surgery and then something unexpected is found or happens during the procedure. Not adjusting the initial plan to the new facts would be literally fatal.
 
@@ -50,7 +50,7 @@ I'd hesitating to call mental models pictures or images though they often corres
 
 This is how expert doctors diagnose patients - by quickly sifting through thousands of symptoms for diseases and being able to narrow in on one (or a few) that share all the traits you've just described and possibly shown.
 
-It ties in with deliberate practice that I've touched upon from Peak [before](https://www.iamjonas.me/2019/08/getting-better-at-it.html). The goal of deliberate practice aims at building better and deeper mental models. As does the [Dreyfus model](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition). It categorizes people into how detailed, connected and numerous their mental models of whatever (be it chess, nursing, programming) are.
+It ties in with deliberate practice that I've touched upon from Peak[before](https://www.iamjonas.me/2019/08/getting-better-at-it.html). The goal of deliberate practice aims at building better and deeper mental models. As does the [Dreyfus model](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition). It categorizes people into how detailed, connected and numerous their mental models of whatever (be it chess, nursing, programming) are.
 
 ## Defining the overview mode
 Taking from the sources of Richs talk and Peak I experimented with something I've given the slightly less catchy name of overview mode - to contrast it from code mode.
@@ -87,7 +87,7 @@ This is ok. Jot down any areas of research in your codebase or connecting system
 ## Outcome of the overview mode
 As you can see - the result of the overview mode should be a list of steps you need to do to proceed. Now you're done. Almost. There's just one more thing: Sort the list from hardest to easiest. Then ALWAYS do the hardest step of the list first.
 
-The hardest part first is to minimize the cost of being wrong. At any stage your work can be overthrown and it's almost invariably at the hardest part that you'll get overthrown as here are the things that can change the most. By constantly going after the hardest part first you'll discover the road-blocks early and can adjust for them.
+The hardest part first is to minimize the cost of being wrong. At any stage your work can be overthrown and it's almost invariably at the hardest part that you'll get overthrown as here are the things that can change the most. By constantly going after the hardest part first you'll discover the road-blocks early and can adjust for them.
 
 Phew.
 

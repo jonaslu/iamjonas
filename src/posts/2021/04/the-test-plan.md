@@ -161,7 +161,7 @@ A simple git blame on whatever row you're on will bring up how that row was veri
 Test-plans can and should be something to include and comment on in a code-review. The reviewer should have input on what and how you tested. They can themselves run your tests as you've described them and assure themselves you knew what you were doing.
 
 ## Think first
-What I like most is the fact that I have to think first. Akin to [overview-mode](https://www.iamjonas.me/2020/06/overview-mode.html) it forces me to focus on the what to verify before I focus on the how. This makes code verification a surprisingly creative act.
+What I like most is the fact that I have to think first. Akin to [overview-mode](https://www.iamjonas.me/2020/06/overview-mode.html) it forces me to focus on the what to verify before I focus on the how. This makes code verification a surprisingly creative act.
 
 There's no end to the options when you are no longer tied to frameworks, tools and code. Need a custom service to read values sent over a network call? Build one! Need to inject values from some third party application? Build a fake service for that! Need to quickly set up a certain state? Script that out!
 

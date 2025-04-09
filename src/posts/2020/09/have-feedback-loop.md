@@ -5,7 +5,7 @@ summary: >
     "I believe we can quickly rise to the top if we never repeat the same mistake twice". I decided to test that. 4½ years later and many of my mistakes recorded where's what happened.
 ---
 
-I want to get better at whatever I do. It's a drive I have always had. Later I discovered via Daniel Pink's book aptly called [Drive](https://www.danpink.com/books/drive/) in order to be happy three things are required: autonomy, mastery and purpose.
+I want to get better at whatever I do. It's a drive I have always had. Later I discovered via Daniel Pink's book aptly called [Drive](https://www.danpink.com/books/drive/) in order to be happy three things are required: autonomy, mastery and purpose.
 
 Programming is a very thankful field when coming to two of the three points made above. There is high autonomy since there are few programmers to go around and since fewer people really understand what you do, you get left alone. You're the expert.
 
@@ -61,9 +61,9 @@ What programming does not have is some formal ranking system. A ranking or scori
 
 ![joke of me being the worst programmer of them all](./programmer-rankings.png)
 
-I've settled for scoring myself on a scale from 1 to 5 each day as some measurement of progress. I'm fully aware that me rating myself is a highly questionable metric with a huge bias but I see it as valuable for two reasons: It provides me with some sense of direction over wider ranges of time. 
+I've settled for scoring myself on a scale from 1 to 5 each day as some measurement of progress. I'm fully aware that me rating myself is a highly questionable metric with a huge bias but I see it as valuable for two reasons: It provides me with some sense of direction over wider ranges of time.
 
-From day to day it's not good but over the course of weeks or months I think the general direction is worth something. Second: the act of setting the grade is a good question generator which is needed when doing feedback - more on that later. What I've done is experimented with what metric to rank such as: focus, flow, enjoyment, productivity, performance, fun and calm but kept the scale the same.
+From day to day it's not good but over the course of weeks or months I think the general direction is worth something. Second: the act of setting the grade is a good question generator which is needed when doing feedback - more on that later. What I've done is experimented with what metric to rank such as: focus, flow, enjoyment, productivity, performance, fun and calm but kept the scale the same.
 
 I haven't picked more than one metric per time to work on as it makes the process look more scientific than it actually is. Better to not get caught up in making these digits too much of a holy grail.
 
@@ -86,7 +86,7 @@ Here's a random note from the archives:
 
 If my mental state is not my ordinary cranky self I'll make a note of it. Say If you've slept bad or had a fight with someone close then this will spill over to what you are doing (which is a good point of improvement - trying to keep the private life disconnected from your professional life).
 
-It helps to have a note of it later when graphing data. When the session is over I put the note in a pile and at weekly intervals snap a picture in Google keep. I add a tag on what week this is with the notes themselves having the individual day on them so I can connect the date to the note later when codifying.
+It helps to have a note of it later when graphing data. When the session is over I put the note in a pile and at weekly intervals snap a picture in Google keep. I add a tag on what week this is with the notes themselves having the individual day on them so I can connect the date to the note later when codifying.
 
 Here's [some samples](https://docs.google.com/document/d/1KSICulh_-b3MMujDVQXG9hlLXB4eQ6H9gUa0XIZRm9s/edit?usp=sharing) of the full 4½ years worth of data (because keep won't let me export all of them at the same time). The headline on the notes follows the regexp:
 

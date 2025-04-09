@@ -13,7 +13,7 @@ I've been intrigued by the idea of [literate programming](https://en.wikipedia.o
 
 An external program then assembles and compiles the code snippets into a runnable program. It can also spit out the prose as documentation. It's like code with comments only the importance is reversed.
 
-The comments are the main attraction and the code is secondary. It's a lot more written prose than code. Here's the original TeX source code as an [example](http://tug.org/texlive/devsrc/Build/source/texk/web2c/tex.web). Without highlighting it's a bit confusing.
+The comments are the main attraction and the code is secondary. It's a lot more written prose than code. Here's the original TeX source code as an [example](http://tug.org/texlive/devsrc/Build/source/texk/web2c/tex.web). Without highlighting it's a bit confusing.
 
 Here's a more modern literate program in vim as contrast:
 
@@ -23,7 +23,7 @@ In an interview in [coders at work](https://www.goodreads.com/book/show/6713575-
 
 Expanding on the first rule: "I don't want to present it in a way that the compiler wants to see it. I present it in the form I think is easiest for the reader to understand". And the second rule: "So literate programming is based on the idea that the best way to communicate is to say things both informally and formally that are related".
 
-The link between natural language and code has been a slow and rewarding discovery. [How to read a code](https://www.iamjonas.me/2020/08/how-to-read-code.html) is based on transforming code back into prose using your own words. It's reverse engineering literate programming.
+The link between natural language and code has been a slow and rewarding discovery. [How to read a code](https://www.iamjonas.me/2020/08/how-to-read-code.html)is based on transforming code back into prose using your own words. It's reverse engineering literate programming.
 
 If I can in my own words express what the program does, the code and it's workings becomes much more obvious. Or as stated earlier: expressing a concept in two complementary ways - both your own and the compiler's terms reinforces understanding.
 
@@ -42,7 +42,7 @@ The branch should ideally build and be ready to run at each commit unless there 
 
 The canonical example of how to not do atomic commits is to format the code and at the same time slip in a functional change. In this case you are solving two problems with one commit.
 
-One is to change formatting and the other is the functional change. These two should be separate. Why is this important? This is where your brain comes into play. It can only hold so many things at a time. 
+One is to change formatting and the other is the functional change. These two should be separate. Why is this important? This is where your brain comes into play. It can only hold so many things at a time.
 
 Getting something right is hard but not impossible when dealing with a few moving parts. You can through testing and thinking reassure yourself that it's a 99% likelihood of it doing what you want.
 
@@ -93,7 +93,7 @@ Even if you don't know the language the code is written in I bet it makes a lot 
 
 With atomic literate commits you are also honoring the [principle of least astonishment](https://en.wikipedia.org/wiki/Principle_of_least_astonishment). The principle states that the result of applying this patch should be obvious, consistent and predictable.
 
-If your message agrees with the code and the code is minimal, accurate and solves one problem there will be little astonishment and more trust in what you do. Here we again use natural language as a help to understand what code is supposed to do. 
+If your message agrees with the code and the code is minimal, accurate and solves one problem there will be little astonishment and more trust in what you do. Here we again use natural language as a help to understand what code is supposed to do.
 
 Since the commit message is in git and not your code it won't rot either. It will be forever true since the patch and the commit message are contained together.
 
@@ -104,7 +104,7 @@ Once you've completed the shitty draft first you can return later and start edit
 
 They often happen randomly because you can't solve a problem neatly until you've first solved the problem. Which is not neat. Unless it's a clear cut bug with a very well known before and after state I'll cheat.
 
-I'll use [overview-mode](https://www.iamjonas.me/2020/06/overview-mode.html) to have some way of attacking the problem but even then things do not go in a clear orderly way.
+I'll use [overview-mode](https://www.iamjonas.me/2020/06/overview-mode.html) to have some way of attacking the problem but even then things do not go in a clear orderly way.
 
 A more common scenario is this real-world example git-branch:
 
@@ -123,7 +123,7 @@ Create a copy of your shitty draft first branch (so you always can go back and r
 
 That usually means git rebase -i moving commits around in order and then using squash and fixup. Most of the time I cannot because they're not properly sliced. One commit should maybe be sliced into two separate, while three others should be one commit.
 
-So what I'll do is git reset --soft the whole thing back to where I branched out. This way you have all the work you've done as staged files. Then look through all of the changes and start thinking on how to make them atomic and literate.
+So what I'll do is git reset --soft the whole thing back to where I branched out. This way you have all the work you've done as staged files. Then look through all of the changes and start thinking on how to make them atomic and literate.
 
 The leading question: is what's the smallest chunk that takes this code from one working state to the next desirable state that I can easily explain? It takes some fiddling and possibly going back to a clean slate, but is well worth the extra work.
 

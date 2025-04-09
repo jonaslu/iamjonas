@@ -98,7 +98,7 @@ Following the outline of the second and third level of reading let's apply that 
 
 To find that out we'll start with the inspectional reading phase. In the book the question we're trying to answer is when doing inspectional reading is "What is the book about, as a whole?". When learning the code base we're going to slightly alter that question into: "What problem does it solve?"
 
-So - first grab a piece of paper and pen. Write that out as a heading. This is a good way of priming your already existing information. And to add to the excitement of priming your mind add in two questions: "How would I implement this?" and "What do I know of the domain"?
+So - first grab a piece of paper and pen. Write that out as a heading. This is a good way of priming your already existing information. And to add to the excitement of priming your mind add in two questions: "How would I implement this?" and "What do I know of the domain"?
 
 Then without looking at the README or similar - just write down what you know about the project beforehand.
 

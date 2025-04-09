@@ -38,7 +38,7 @@ A coffee table - I'm using [IKEAs lack](http://www.ikea.com/se/sv/catalog/produc
 
 ![Elfa rails, shelf brackets and a shelf](./elfa-rails-shelf-brackets-and-shelf.jpg)
 
-[ELFA rails](http://se.elfa.com/site/en/gbr/products/classic/traditional-shelving/wallband), [shelf brackets](http://se.elfa.com/site/en/gbr/products/classic/traditional-shelving/traditional-bracket#) and a shelf for the keyboard and mouse. In Sweden there are cheaper knock-offs for the ELFA stuff so look around and see if there is such a thing where you live before splurging. The shelf I chose was 80 x 30 x 16 cm which allowed a keyboard, mouse and some hand rest.
+[ELFA rails](http://se.elfa.com/site/en/gbr/products/classic/traditional-shelving/wallband), [shelf brackets](http://se.elfa.com/site/en/gbr/products/classic/traditional-shelving/traditional-bracket#) and a shelf for the keyboard and mouse. In Sweden there are cheaper knock-offs for the ELFA stuff so look around and see if there is such a thing where you live before splurging. The shelf I chose was 80 x 30 x 16 cm which allowed a keyboard, mouse and some hand rest.
 
 ## Tools
 Aww yea, hardware talk!
@@ -111,7 +111,7 @@ And another with the stand mounter higher on a lower table.
 ![Table placed on a lower surface](./table-on-low-surface.jpg)
 *Lower table = higher keyboard stand*
 
-And here it is dismounted and acting like a normal furniture akin to a super hero at the office.
+And here it is dismounted and acting like a normal furniture akin to a super hero at the office.
 
 ![Keyboard stand dismounted](./keyboard-stand-dismounted.jpg)
 *Keyboard stand dismounted serving some tea and brownies*
