@@ -1,7 +1,8 @@
 ---
 title: "Want to be great? Know a lot"
-date: 2021-10-26
+date: 2021-10-26T18:22:00
 summary: "Remember that time where you knew of a solution that no-one else did? And it worked exceptionally well too. I bet you felt like a great programmer. Let's make that happen again!"
+rssGuid: tag:blogger.com,1999:blog-5873105332315080552.post-4511597801561304732
 ---
 
 In the book [Ultralearning](https://www.scotthyoung.com/blog/ultralearning/) Scott H Young argues that the difference between a great programmer and mediocre programmer is not the ability to solve problems. Both can often get the job done. But the great programmer knows a dozen or more ways to solve the problem and can apply the most effective solution for the case at hand.

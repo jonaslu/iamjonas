@@ -1,8 +1,9 @@
 ---
 title: "The test-plan"
-date: 2021-04-26
+date: 2021-04-26T10:01:00
 summary: >
   "The tests are timing out again" someone yells. "Alright I'll bump them" you instinctively respond. Then you pause and feel uneasy. Is there another way?
+rssGuid: tag:blogger.com,1999:blog-5873105332315080552.post-4201311275861374584
 ---
 
 This is just between you and me, ok? I'm not comfortable with releasing code that's only been unit-tested. I've [preached](https://www.iamjonas.me/2021/01/literate-atomic-commits.html) [at](https://www.iamjonas.me/2020/11/how-to-own-code.html) [lengths](https://www.iamjonas.me/2020/06/overview-mode.html) on this blog on how being correct is the single most important thing for a developer.

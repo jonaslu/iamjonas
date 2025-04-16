@@ -1,7 +1,8 @@
 ---
 title: "Getting unstuck"
-date: 2021-06-18
+date: 2021-06-18T10:51:00
 summary: "You sigh. Maybe the compilation didn't work? You recompile and run it again. Nope. Still the same problem. You stare out the window."
+rssGuid: tag:blogger.com,1999:blog-5873105332315080552.post-6423464796825477773
 ---
 
 You're stuck. But what exactly is this thing we call being stuck? It's when your mental model of a program does not match the actual program. You expect it to work in a certain way but it does not. As a developer this happens daily.

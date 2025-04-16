@@ -1,7 +1,8 @@
 ---
 title: "How to enjoy a good meltdown"
-date: 2021-12-21
+date: 2021-12-21T08:32:00
 summary: "It's down! Production is down! You're working at an intense pace yet you have a serene calm feeling. You are prepared for this. It's showtime!"
+rssGuid: tag:blogger.com,1999:blog-5873105332315080552.post-5214573504424712326
 ---
 
 At most places I've worked there has been one or more great meltdowns. A great meltdown is when an important part of production is down or not working properly. As I work in web development this means the site is down.

@@ -1,7 +1,8 @@
 ---
 title: "Reverting unhappiness"
-date: 2022-07-27
+date: 2022-07-27T10:51:00
 summary: "There are benefits to being happy with what you do beyond the mere feeling. To become happier we need to know the low points and take back some control over the causes of misery."
+rssGuid: tag:blogger.com,1999:blog-5873105332315080552.post-2129064430921387788
 ---
 
 Being happy isn't something I hear of often in developer circles. Developers mostly complain about stuff that's already in place. And talk dreamily of new things that haven't yet proven as boring and buggy as the previous new things.

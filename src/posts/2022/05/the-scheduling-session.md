@@ -1,7 +1,8 @@
 ---
 title: "The scheduling session"
-date: 2022-05-08
+date: 2022-05-08T17:47:00
 summary: "Multitasking and interruptions? All bad! Unless you do it yourself. Then it's all right!"
+rssGuid: tag:blogger.com,1999:blog-5873105332315080552.post-604179626909284447
 ---
 
 Don't multitask. Multitasking is really bad. You'll get less things done and spend precious time context switching. So the general advice goes. Science [backs this up](https://en.wikipedia.org/wiki/Human_multitasking#Research) we're not actually multitasking, we're like a single-core computer context-switching between tasks. And that costs.

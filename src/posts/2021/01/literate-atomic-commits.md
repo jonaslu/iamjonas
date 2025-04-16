@@ -1,7 +1,8 @@
 ---
 title: "Literate atomic commits"
-date: 2021-01-25
+date: 2021-01-25T11:44:00
 summary: "We need to talk about your commit-messages"
+rssGuid: tag:blogger.com,1999:blog-5873105332315080552.post-4804937894318815153
 ---
 
 We all do it. Up to many times a day and yet it's rare that I meet someone that has given it a second thought. No, it's not secretly snacking chocolate from your top office drawer.

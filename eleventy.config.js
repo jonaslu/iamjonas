@@ -1,6 +1,12 @@
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 
+const RSS_FEED_ITEM_COUNT = 10;
+
+function getAllPosts(collectionsApi) {
+  return collectionsApi.getFilteredByGlob("src/posts/**/*.md").sort((a, b) => b.date - a.date);
+}
+
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function (eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
@@ -15,10 +21,16 @@ export default async function (eleventyConfig) {
     }).format(date)
   );
 
-  eleventyConfig.addCollection("posts", (collectionApi) => {
-    return collectionApi.getFilteredByGlob("src/posts/**/*.md").sort((a, b) => b.date - a.date);
+  eleventyConfig.addCollection("posts", (collectionsApi) => {
+    return getAllPosts(collectionsApi);
   });
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin);
-	eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(syntaxHighlight);
+
+  eleventyConfig.addCollection("rssItems", function (collectionsApi) {
+    const posts = getAllPosts(collectionsApi).splice(0, RSS_FEED_ITEM_COUNT);
+    const rssItems = collectionsApi.getFilteredByGlob("src/rss/*.md");
+    return [...posts, ...rssItems].sort((a, b) => b.date - a.date);
+  });
 }

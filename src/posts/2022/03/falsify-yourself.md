@@ -1,7 +1,8 @@
 ---
 title: "Falsify yourself"
-date: 2022-03-10
+date: 2022-03-10T04:30:00
 summary: "You've solved it! Until someone asks a simple question and you're stunned. Why didn't I think of that? Because you're hardwired not to see holes in your own solutions. Let's fix that"
+rssGuid: tag:blogger.com,1999:blog-5873105332315080552.post-7020328561533096774
 ---
 
 I had been brought in to replace an old component that ran its own database to use the existing database instead. I read and looked at code, scratched my head, cursed and whiteboarded for a long time. Eventually I came up with a pretty nice solution. According to me.
