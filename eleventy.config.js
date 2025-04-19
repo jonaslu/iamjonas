@@ -12,6 +12,8 @@ export default async function (eleventyConfig) {
   eleventyConfig.setInputDirectory("src");
 
   eleventyConfig.addPassthroughCopy("src/style.css");
+  eleventyConfig.addPassthroughCopy("src/favicon.ico");
+
   eleventyConfig.addFilter("intlPostDate", (date) =>
     new Intl.DateTimeFormat("en-US", {
       weekday: "long",
