@@ -6,9 +6,15 @@ summary: It's on a static site now
 permalink: false
 ---
 Apologies if your RSS reader went bananas.
-This site is now moved to a static generator
-I wanted to ditch the old blogger baggage.
+This site has moved to a static generator
+and I wanted to ditch the old blogger rss baggage.
 
-Items will still keep their guid (and phased out
-once they drop off the rss list) but
-the <atom:id> of the blog itself is gone.
+I've tried my best to not upset the rss
+readers by keeping the old (icky) guid's
+and post dates.
+
+If I didn't succeed, my apologies. The latest
+post at the date of migration is 
+the trouble with troubleshooting:
+
+https://www.iamjonas.me/2023/07/the-trouble-with-troubleshooting.html
