@@ -17,7 +17,7 @@ permalink: /rss.xml
             <title>{{ post.data.title }}</title>
             <category>{{ post.data.summary }}</category>
             <description>{{ post.content }}</description>
-            <link>{{ post.url }}</link>
+            {% if post.url %}<link>{{ site.baseUrl }}{{ post.url }}</link>{% endif %}
         </item>
         {%- endfor -%}
     </channel>
