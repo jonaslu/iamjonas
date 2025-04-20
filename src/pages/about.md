@@ -25,4 +25,4 @@ I call my blog-posts articles because it sounds more pompous.
 I have this one-man [melodic death metal](https://www.facebook.com/aestheticsofaloss/) orchestra.  
 I've take an a blood oath to choose quality over quantity.  
 
-![me and dog](./me_and_dog.jpg)
+![me and my dog locking eyes (kind of)](./me-and-dog.jpg)
