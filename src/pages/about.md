@@ -4,7 +4,7 @@ layout: post.njk
 ---
 
 I blog on improving as a programmer.  
-You can get notified on new posts via [email](https://follow.it/i-am-jonas?action=followPub) or RSS.
+You can get notified on new posts via [email](https://follow.it/i-am-jonas?action=followPub) or [RSS](/rss.xml).
 
 ## Contact
 Best way: [jonasl@iamjonas.me](mailto:jonasl@iamjonas.me)  
