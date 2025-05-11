@@ -32,7 +32,7 @@ export default async function (eleventyConfig) {
 
   eleventyConfig.addCollection("rssItems", function (collectionsApi) {
     const posts = getAllPosts(collectionsApi).splice(0, RSS_FEED_ITEM_COUNT);
-    const rssItems = collectionsApi.getFilteredByGlob("src/rss/*.md");
+    const rssItems = collectionsApi.getFilteredByGlob("src/feed/*.md");
     return [...posts, ...rssItems].sort((a, b) => b.date - a.date);
   });
 }
