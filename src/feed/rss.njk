@@ -7,7 +7,7 @@ permalink: /rss.xml
         <title>{{site.title}}</title>
         <description>I blog on improving as a programmer</description>
         <link>{{site.baseUrl}}</link>
-        <atom:link href="https://{{site.base}}/rss.xml" rel="self" type="application/rss+xml"/>
+        <atom:link href="{{site.baseUrl}}/rss.xml" rel="self" type="application/rss+xml"/>
         <language>en</language>
         <lastBuildDate>{{ collections.rssItems[0].data.date.toUTCString().replace("GMT","+0000") }}</lastBuildDate>
         {%- for post in collections.rssItems -%}
