@@ -2,6 +2,7 @@
 title: RSS feed migrated
 date: 2025-04-16
 rssGuid: /static-site-moved-123098123
+atomId: tag:www.iamjonas.me,2025:rss-warning
 summary: It's on a static site now
 permalink: false
 ---
