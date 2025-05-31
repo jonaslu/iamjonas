@@ -1,13 +1,10 @@
----
-permalink: /atom.xml
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns='http://www.w3.org/2005/Atom'>
     <title type='text'>{{site.title}}</title>
     <id>tag:www.iamjonas.me,2025:blog-feed</id>
     <updated>{{ collections.rssItems[0].data.date.toISOString() }}</updated>
     <link href="{{ site.baseUrl }}" />
-    <link rel="self" href="{{ site.baseUrl}}/atom.xml" />
+    <link rel="self" href="{{ site.baseUrl}}{{ link }}" />
     <author>
         <name>Jonas Lundberg</name>
     </author>
