@@ -1,0 +1,22 @@
+name = "iamjonas"
+compatibility_date = "2025-04-23"
+main = "./_worker.js"
+routes = [
+  "iamjonas.me/*",
+  "www.iamjonas.me/*"
+]
+
+[env]
+production = { }
+
+[assets]
+binding = "ASSETS"
+directory = "./_site"
+run_worker_first = true
+html_handling = "none"
+not_found_handling = "404-page"
+
+[[r2_buckets]]
+binding = "ACCESS_LOG_BUCKET" 
+bucket_name = "iamjonas-access-logs"   
+preview_bucket_name = "iamjonas-access-logs"

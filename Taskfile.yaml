@@ -15,3 +15,9 @@ tasks:
     desc: "11ty serve"
     cmds:
       - npx @11ty/eleventy --serve
+
+  deploy:
+    desc: "Deploy to Cloudflare pages"
+    cmds:
+      - task clean gen
+      - npx wrangler deploy
