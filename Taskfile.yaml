@@ -21,3 +21,14 @@ tasks:
     cmds:
       - task clean gen
       - npx wrangler deploy
+
+  logs:sync:
+    desc: "rclone sync logs"
+    cmds:
+      - rclone sync iamjonas-r2:iamjonas-access-logs/logs ./logs  --progress
+
+  logs:process:
+    desc: "Process logs"
+    dir: ./logs
+    cmds:
+      - goaccess -p ../.goaccessrc *
