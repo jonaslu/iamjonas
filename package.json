@@ -6,7 +6,7 @@
   "author": "Jonas Lundberg",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.1.2"
   },
   "type": "module",
   "dependencies": {
